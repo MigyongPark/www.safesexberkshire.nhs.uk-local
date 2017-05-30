@@ -1,0 +1,86 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+
+	@Html.Partial("newsText")
+
+		<div class="row bg">
+			@Html.Partial("filterContent")
+			@Html.Partial("findClinic")
+			@Html.Partial("signPosts")
+		</div>
+
+	<div class="row results">
+      @Html.Partial("filterResults")
+  </div>
+
+	@Html.Partial("panels")
+
+  @* this section is used to generate the popup for the news *@
+  @if (@CurrentPage.newsTitle != null && @CurrentPage.newsTitle != "") {
+    @section popup {
+      <!-- Include jQuery Popup Overlay -->
+      <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.11/jquery.popupoverlay.js"></script>
+
+      <script>
+      $(document).ready(function() {
+        if(sessionStorage.getItem('popState') != 'shown'){
+          // make the news popup appear after 1.5 seconds
+          setTimeout(function() {
+            $('#slide').popup({
+              autoopen: true,
+              focusdelay: 400
+            });
+          },1500);
+          sessionStorage.setItem('popState','shown');
+        }
+
+            // make the news popup disappear after a further 8 seconds
+            setTimeout(function(){
+             @* $('#slide_background').hide(1000);
+              $('#slide_wrapper').hide(1000);
+              $('#slide').hide(100);*@
+            },8500);
+      	});
+      </script>
+    }
+  }
+  @* end of news popup *@
+
+  @* this section is used to include the isotope/masonry plugin *@
+  @section masonry {
+    <script src="/scripts/isotope.pkgd.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+    	// init Isotope
+    	var $grid = $('.grid').isotope({
+        columnWidth: '.grid-sizer',
+        itemSelector: '.grid-item',
+        percentPosition: true
+    	});
+
+    	// initial filter to show only default items
+    	$grid.isotope({ filter: '.Default' });
+
+    	$('.filter-button-group .orange').click(function() {
+    	  var filterValue = $(this).attr('data-filter');
+    		// alert(filterValue);
+    	  $grid.isotope({ filter: filterValue });
+    	});
+    } );
+    </script>
+  }
+  @* end of isotope/masonry *@
+
+@helper Truncate(string input, int length)
+{
+  if (input.Length <= length) {
+          @Html.Raw(input)
+  }
+  else {
+          @Html.Raw(input.Substring(0, length))<text>...</text>
+  }
+}

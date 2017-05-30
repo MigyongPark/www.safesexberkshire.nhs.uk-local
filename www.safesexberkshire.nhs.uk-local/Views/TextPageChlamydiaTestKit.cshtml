@@ -1,0 +1,36 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<div class="row padding container margin">
+	<div class="col-xs-12">
+		@{ Html.RenderPartial("Breadcrumbs"); }
+		<h1>@Umbraco.Field("pageName")</h1>
+	</div>
+</div>
+
+<div class="row padding container margin">
+  <div class="col-xs-12">
+    <p>You can order free Chlamydia home screening kits here. Please note that free test kits are available for people aged under 25 living in West Berkshire, Wokingham and the Royal Borough of Windsor and Maidenhead. Kits will test for both chlamydia and gonorrhoea.</p>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <form action="https://www.dontpassiton.co.uk/order/" name="ChlamydiaTestkit" method="get" target="_blank">
+
+        <span class="testkit-date">DOB: </span><input type="text" name="dob" class="testkit-datepicker" id="datepicker" required><br>
+
+        <span class="testkit-pc ">Postcode:</span><input type="text" name="postcode" class="testkit-pcinput"  required><br>
+
+        <input type="submit" name="submit" class="testkit-submit" value="Submit" onClick="ga('send', 'event', 'Chlamydia', 'Chlamydia click', 'Chlamydia Test Kit submit button');">
+    </form>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+        <img src="/Images/dpio_logo_black-160x120.png" style="" alt="Don't pass it on logo"><br>
+		<p>Please visit this site for more information: <a href="https://www.dontpassiton.co.uk" class="newWindow">www.dontpassiton.co.uk</a></p>
+    </form>
+  </div>
+</div>
+<div class="row padding margin">
+	<div class="col-xs-12">
+		@Umbraco.Field("bodyText")
+	</div>
+</div>

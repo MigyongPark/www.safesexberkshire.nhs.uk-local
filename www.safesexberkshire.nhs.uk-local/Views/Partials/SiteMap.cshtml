@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+
+    <strong>All items in tree </strong>
+    var thisTree = Model.Content.AncestorsOrSelf().Reverse();
+    <ul>
+        @foreach (var itemInTree in thisTree)
+        {
+            <li><a href="/">@itemInTree.Name</a></li>
+        }
+    </ul>
+}
+@{ var items = Model.Content.Children.Where(x => x.IsVisible() && x.Level <= 4); }
+
+<ul>
+    @foreach (var page in items)
+    {
+        <li>
+            <a href="@page.Url">@page.Name</a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,156 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	var panelsLocation = "";
+}
+
+<div class="col-xs-12 col-lg-4" id="clinicbg">
+	<div class="row" >
+		<div class="col-xs-8 col-lg-9">
+			<h1 class="clinic heading" style="margin-left: -15px; margin-right: -15px;">Find a Service</h1>
+		</div>
+		<div class="col-xs-4 col-lg-3">
+			<svg class="icon icon-map">
+				<use xlink:href="#icon-map"></use>
+			</svg>
+		</div>
+	</div>
+	<div class="row panelContent @panelsLocation">
+		@* This form is used to capture a GPS location for a search *@
+		<form method="POST" action="~/local-services/service-results" name="frmLocationSearch" id="frmLocation" onsubmit="return funGetLatLng2();">
+				<div class="row location-btn-bg">
+						<div class="col-xs-12">
+						<label style="width: 100%;">
+							<input class="location-btn" type="submit" name="image" value="Search using my location" />
+								<svg class="icon icon-magnifier"><use xlink:href="#icon-map-marker"></use></svg>
+						</label>
+						</div>
+				</div>
+				@* Hidden fields to pass key data *@
+				<input type="hidden" name="pCode2" value="Location" />
+				<input type="hidden" name="hdnSearchType" value="Location" />
+				<input type="hidden" id="txtLatitude2" name="txtLatitude2" value="" />
+				<input type="hidden" id="txtLongitude2" name="txtLongitude2" value="" />
+				<input type="hidden" name="lstRadius" value="10" />
+		</form>
+		@* End of location form *@
+
+		<div class="row">
+				<div class="col-xs-12">
+					<img class="loc-map" src="../images/map_clinic_finder_new2.png" alt="Location Map - Berkshire"/>
+					@*<img class="loc-map" src="../Images/Map/map_berkshire.png">*@
+				</div>
+		</div>
+
+		@* This form is used to capture & send a postcode for search *@
+		<form method="POST" action="~/local-services/service-results" name="frmPcodeSearch" class="hide-submit" id="frmPcode" onsubmit="return funGetLatLng();">
+			<div class="col-xs-12 postcode2">
+				<input style="width: 87%; background-color: #cd1e3b; border: 0;  outline: none; vertical-align: super;" type="text" name="pCode" id="pCode" onfocus="this.value='';"  value="Enter postcode to find a Service" />
+				<label style="width: 10%;" >
+					<input type="submit"/>
+					<svg class="icon icon-magnifier"><use xlink:href="#icon-magnifier"></use></svg>
+				</label>
+			</div>
+			@* Hidden fields to pass key data *@
+			<input type="hidden" name="hdnSearchType" value="Pcode" />
+			<input type="hidden" id="txtLatitude" name="txtLatitude" value="" />
+			<input type="hidden" id="txtLongitude" name="txtLongitude" value="" />
+			<input type="hidden" name="lstRadius" value="10" />
+			@*<p class="pcode">Enter postcode to Find Clinic  </p><svg class="icon icon-magnifier"><use xlink:href="#icon-magnifier"></use></svg></div>*@
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3&amp;region=GB&amp;sensor=false"></script>
+<script src="/scripts/jspostcode.js" type="text/javascript"></script>
+<script type="text/javascript">
+    function trimAll(givenStr) {
+        return givenStr.replace(/^\s+|\s+$/g, '');
+    }
+
+    function funGetLatLng(callOption) {
+        document.getElementById("txtLatitude").value = "";
+        document.getElementById("txtLongitude").value = "";
+
+        /*
+		var tempObj;
+        tempObj = document.getElementById("ddlServiceType");
+        var strStype = tempObj.options[tempObj.selectedIndex].value;
+        if (strStype == "") {
+            alert('Please select the type of service');
+            document.getElementById("ddlServiceType").focus();
+            return false;
+        }
+		*/
+
+        document.getElementById("pCode").value = trimAll(document.getElementById("pCode").value);
+        var pcode = document.getElementById("pCode").value;
+        if (pcode == "") {
+            alert("Please enter your postcode");
+            document.getElementById("pCode").focus();
+            return false;
+        }
+
+        // pcode = pcode.toUpperCase();
+        // document.getElementById("pCode").value = pcode;
+
+        var gResult;
+        gResult = checkPostCode(pcode);
+        if (gResult == false) {
+            alert("Pleae enter a valid UK postcode");
+            document.getElementById('pCode').focus();
+            return false;
+        }
+        else {
+            document.getElementById('pCode').value = gResult;
+            pcode = gResult;
+        }
+
+        var geo = new google.maps.Geocoder();
+        geo.geocode({ address: pcode + ', UK' }, function (results, status) {
+            if (status === google.maps.GeocoderStatus.OK) {
+                document.getElementById("txtLatitude").value = (results[0].geometry.location.lat().toFixed(7));
+                document.getElementById("txtLongitude").value = (results[0].geometry.location.lng().toFixed(7));
+                document.frmPcodeSearch.submit();
+            }
+        });
+
+        return false;
+
+    }
+
+    function funGetLatLng2() {
+      if(navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(addLatLangToForm,handle_errors, { enableHighAccuracy: true });
+      } else {
+        alert("Geolocation is not supported by your browser. Please try again by entering your postcode.");
+      }
+      return false;
+    }
+
+    function addLatLangToForm(position) {
+        document.getElementById("txtLatitude2").value = position.coords.latitude;
+        document.getElementById("txtLongitude2").value = position.coords.longitude;
+        document.frmLocationSearch.submit();
+  }
+
+
+    function handle_errors(error)
+    {
+        switch(error.code)
+        {
+            case error.PERMISSION_DENIED: alert("Location sharing has not been enabled. Please try again by entering your postcode.");
+            break;
+
+            case error.POSITION_UNAVAILABLE: alert("We could not detect current position. Please try again or try entering your postcode.");
+            break;
+
+            case error.TIMEOUT: alert("Retrieving your position took too long. Please try again or try entering your postcode.");
+            break;
+
+            default: alert("Unknown error. Please try again by entering your postcode.");
+            break;
+        }
+
+          return false;
+      }
+
+</script>

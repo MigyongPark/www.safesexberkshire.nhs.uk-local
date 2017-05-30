@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@using Examine
+@using Examine.SearchCriteria
+@using UmbracoExamine
+@using System.Xml.XPath
+
+
+@{
+               
+ if (@Model.listFilesFromAParticularFolder != "" && @Model.listFilesFromAParticularFolder != null)
+ {
+                   dynamic imageFolder = Library.NodeById(@Model.listFilesFromAParticularFolder); 
+                 
+                   <h2>Related Documents</h2>
+                 
+
+                   foreach (var folder in imageFolder.Children)   
+                   {
+                                   <p>&bull; <a href="@folder.Url">@folder.Name</a> (@folder.umbracoExtension)</p>
+                                   <p>@folder.shortDescriptionOfTheDocument</p>                    
+                                                  
+                                   <div class="thinline"> </div>     
+                                }
+ }
+               
+               
+
+}

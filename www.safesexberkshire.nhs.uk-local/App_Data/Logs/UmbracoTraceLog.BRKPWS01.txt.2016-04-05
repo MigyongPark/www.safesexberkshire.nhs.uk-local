@@ -1,0 +1,250 @@
+﻿ 2016-04-05 02:24:00,765 [P4172/D4/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-04 02:24:00
+ 2016-04-05 06:23:55,538 [P4172/D4/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-04 06:23:55
+ 2016-04-05 09:09:24,432 [P4172/D4/T61] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-04-05 09:16:05,761 [P4172/D4/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.165
+ 2016-04-05 09:16:05,761 [P4172/D4/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.165
+ 2016-04-05 09:16:05,839 [P4172/D4/T68] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-05 09:16:05,839 [P4172/D4/T68] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-05 10:23:55,588 [P4172/D4/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-04 10:23:55
+ 2016-04-05 10:57:04,859 [P4172/D4/T105] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.166
+ 2016-04-05 10:57:04,859 [P4172/D4/T105] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.166
+ 2016-04-05 10:57:04,922 [P4172/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-05 10:57:04,922 [P4172/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-05 10:59:28,250 [P4172/D4/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic' with Id '1323' has been published.
+ 2016-04-05 10:59:32,344 [P4172/D4/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 10:59:32,391 [P4172/D4/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:01:02,953 [P4172/D4/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'The Garden Clinic' with Id '1206' has been published.
+ 2016-04-05 11:01:07,016 [P4172/D4/T103] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:01:07,047 [P4172/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:01:22,563 [P4172/D4/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-04-05 11:01:26,625 [P4172/D4/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:01:26,688 [P4172/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:01:36,500 [P4172/D4/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital (Contraception services)' with Id '1210' has been published.
+ 2016-04-05 11:01:40,563 [P4172/D4/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:01:40,594 [P4172/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:02:00,922 [P4172/D4/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-04-05 11:02:04,985 [P4172/D4/T88] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:02:05,016 [P4172/D4/T60] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:02:13,016 [P4172/D4/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-04-05 11:02:17,094 [P4172/D4/T103] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:02:17,125 [P4172/D4/T60] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:02:26,766 [P4172/D4/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Skimped Hill Health Centre' with Id '1386' has been published.
+ 2016-04-05 11:02:30,891 [P4172/D4/T88] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:02:30,954 [P4172/D4/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:02:38,688 [P4172/D4/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Maidenhead Outpatients Department' with Id '1387' has been published.
+ 2016-04-05 11:02:42,797 [P4172/D4/T105] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:02:42,844 [P4172/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:13:34,939 [P4172/D4/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pharmacies' with Id '1142' has been published.
+ 2016-04-05 11:13:38,986 [P4172/D4/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:13:39,017 [P4172/D4/T94] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:23:59,628 [P4172/D4/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pregnant?' with Id '1333' has been published.
+ 2016-04-05 11:24:03,706 [P4172/D4/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:24:03,737 [P4172/D4/T27] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:26:40,956 [P4172/D4/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HIV' with Id '1331' has been published.
+ 2016-04-05 11:26:45,035 [P4172/D4/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:26:45,066 [P4172/D4/T94] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:27:01,472 [P4172/D4/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HIV' with Id '1331' has been published.
+ 2016-04-05 11:27:05,582 [P4172/D4/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:27:05,613 [P4172/D4/T94] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:30:29,394 [P4172/D4/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexting' with Id '1345' has been published.
+ 2016-04-05 11:30:33,957 [P4172/D4/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:30:34,004 [P4172/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:32:48,973 [P4172/D4/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sex and Law' with Id '1168' has been published.
+ 2016-04-05 11:32:53,285 [P4172/D4/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:32:53,348 [P4172/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:33:13,363 [P4172/D4/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sex and Law' with Id '1168' has been published.
+ 2016-04-05 11:33:17,426 [P4172/D4/T43] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:33:17,457 [P4172/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:35:20,989 [P4172/D4/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Commercial Sex' with Id '1179' has been published.
+ 2016-04-05 11:35:25,067 [P4172/D4/T94] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:35:25,098 [P4172/D4/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:38:49,161 [P4172/D4/T104] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Thames Valley Positive Support' with Id '1321' has been published.
+ 2016-04-05 11:38:53,255 [P4172/D4/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:38:53,286 [P4172/D4/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:45:01,380 [P4172/D4/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chem Sex' with Id '1172' has been published.
+ 2016-04-05 11:45:05,552 [P4172/D4/T104] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:45:05,599 [P4172/D4/T102] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:46:38,959 [P4172/D4/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chem Sex' with Id '1172' has been published.
+ 2016-04-05 11:46:43,021 [P4172/D4/T88] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:46:43,068 [P4172/D4/T102] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:51:16,428 [P4172/D4/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Help & Support' with Id '1125' has been published.
+ 2016-04-05 11:51:20,491 [P4172/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:51:20,537 [P4172/D4/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:51:26,428 [P4172/D4/T104] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Domestic Abuse' with Id '1189' has been published.
+ 2016-04-05 11:51:30,584 [P4172/D4/T60] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:51:30,616 [P4172/D4/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:54:52,882 [P4172/D4/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Domestic Abuse' with Id '1189' has been unpublished.
+ 2016-04-05 11:54:56,960 [P4172/D4/T94] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:54:56,991 [P4172/D4/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:55:01,366 [P4172/D4/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hooking up online' with Id '1359' has been unpublished.
+ 2016-04-05 11:55:05,413 [P4172/D4/T103] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:55:05,444 [P4172/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:55:08,116 [P4172/D4/T104] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexting' with Id '1345' has been unpublished.
+ 2016-04-05 11:55:12,163 [P4172/D4/T94] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:55:12,194 [P4172/D4/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:55:48,147 [P4172/D4/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Consent' with Id '1344' has been unpublished.
+ 2016-04-05 11:55:52,257 [P4172/D4/T105] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:55:52,288 [P4172/D4/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:55:53,507 [P4172/D4/T104] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Well Being' with Id '1162' has been unpublished.
+ 2016-04-05 11:55:57,616 [P4172/D4/T60] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:55:57,647 [P4172/D4/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:55:59,944 [P4172/D4/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Body Image' with Id '1163' has been unpublished.
+ 2016-04-05 11:56:04,054 [P4172/D4/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:56:04,085 [P4172/D4/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:56:05,694 [P4172/D4/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Puberty' with Id '1164' has been unpublished.
+ 2016-04-05 11:56:09,819 [P4172/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:56:09,851 [P4172/D4/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:56:23,851 [P4172/D4/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test-styling' with Id '1216' has been unpublished.
+ 2016-04-05 11:56:27,913 [P4172/D4/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:56:27,960 [P4172/D4/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:56:53,663 [P4172/D4/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Erectile Dysfunction & Sexual Dysfunction' with Id '1134' has been unpublished.
+ 2016-04-05 11:56:57,726 [P4172/D4/T103] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:56:57,772 [P4172/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 11:56:59,022 [P4172/D4/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Teenage Pregnancy' with Id '1135' has been unpublished.
+ 2016-04-05 11:57:03,116 [P4172/D4/T104] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 11:57:03,148 [P4172/D4/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:10:21,734 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-04-05 13:10:21,734 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-04-05 13:10:21,797 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-04-05 13:10:21,797 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-04-05 13:10:21,828 [P4172/D4/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-04-05 13:10:21,828 [P4172/D4/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-04-05 13:10:21,875 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-04-05 13:10:21,875 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-04-05 13:10:21,875 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-04-05 13:10:21,875 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-04-05 13:10:21,875 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-04-05 13:10:21,890 [P4172/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-04-05 13:10:25,375 [P2436/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-04-05 13:10:25,422 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-04-05 13:10:25,437 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-04-05 13:10:25,672 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-04-05 13:10:25,703 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 22ms)
+ 2016-04-05 13:10:25,750 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-04-05 13:10:25,750 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-04-05 13:10:25,750 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-04-05 13:10:25,750 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-04-05 13:10:25,797 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-04-05 13:10:25,797 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-04-05 13:10:25,797 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-04-05 13:10:25,797 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-04-05 13:10:25,859 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-04-05 13:10:25,859 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-04-05 13:10:25,859 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-04-05 13:10:25,859 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-04-05 13:10:27,078 [P2436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-04-05 13:10:27,437 [P2436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-04-05 13:10:27,469 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-04-05 13:10:27,484 [P2436/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2016-04-05 13:10:28,406 [P2436/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-04-05 13:10:28,422 [P2436/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-04-05 13:10:28,453 [P2436/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-04-05 13:10:28,562 [P2436/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-04-05 13:10:28,578 [P2436/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3462ms)
+ 2016-04-05 13:10:29,328 [P2436/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.safesexberkshire.nhs.uk/umbraco (UmbracoModule request)
+ 2016-04-05 13:10:51,953 [P4172/D4/T67] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-04-05 13:16:38,204 [P2436/D2/T13] INFO  umbraco.content - Load Xml from file...
+ 2016-04-05 13:16:38,219 [P2436/D2/T13] INFO  umbraco.content - Loaded Xml from file.
+ 2016-04-05 13:16:39,126 [P2436/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-04-05 13:16:39,126 [P2436/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-04-05 13:17:41,813 [P2436/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-04 13:17:41
+ 2016-04-05 13:25:10,533 [P2436/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-05 13:25:10,533 [P2436/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-04-05 13:25:10,642 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-04-05 13:25:10,642 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-04-05 13:25:10,689 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-04-05 13:25:10,689 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-04-05 13:25:10,689 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-04-05 13:25:10,689 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-04-05 13:25:10,955 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-04-05 13:25:10,955 [P2436/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-04-05 13:26:59,174 [P2436/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FGM' with Id '1187' has been published.
+ 2016-04-05 13:26:59,361 [P2436/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-04-05 13:26:59,361 [P2436/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-04-05 13:27:03,799 [P2436/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:27:03,846 [P2436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:27:36,580 [P2436/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FGM' with Id '1187' has been published.
+ 2016-04-05 13:27:40,799 [P2436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:27:40,814 [P2436/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:29:05,986 [P2436/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexual Assault and Rape' with Id '1186' has been published.
+ 2016-04-05 13:29:10,065 [P2436/D2/T30] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:29:10,111 [P2436/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:31:32,065 [P2436/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexual Assault and Rape' with Id '1186' has been published.
+ 2016-04-05 13:31:36,127 [P2436/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:31:36,143 [P2436/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:31:54,643 [P2436/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexual Assault and Rape' with Id '1186' has been published.
+ 2016-04-05 13:31:58,706 [P2436/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:31:58,752 [P2436/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:32:22,924 [P2436/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexual Assault and Rape' with Id '1186' has been published.
+ 2016-04-05 13:32:26,971 [P2436/D2/T30] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:32:27,002 [P2436/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:34:05,753 [P2436/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Worried about a Child or a Friend' with Id '1177' has been published.
+ 2016-04-05 13:34:09,862 [P2436/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:34:09,893 [P2436/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 13:34:54,909 [P2436/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chem Sex' with Id '1172' has been published.
+ 2016-04-05 13:34:58,972 [P2436/D2/T30] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 13:34:59,003 [P2436/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:31:32,689 [P2436/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.166
+ 2016-04-05 16:31:32,704 [P2436/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.166
+ 2016-04-05 16:32:00,876 [P2436/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital (Sexual Health Screening)' with Id '1211' has been unpublished.
+ 2016-04-05 16:32:05,001 [P2436/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:32:05,033 [P2436/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:32:40,876 [P2436/D2/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital' with Id '1210' has been published.
+ 2016-04-05 16:32:44,923 [P2436/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:32:44,970 [P2436/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:33:01,314 [P2436/D2/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'The Garden Clinic' with Id '1206' has been published.
+ 2016-04-05 16:33:05,408 [P2436/D2/T42] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:33:05,455 [P2436/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:33:29,861 [P2436/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-04-05 16:33:33,939 [P2436/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:33:33,970 [P2436/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:33:50,314 [P2436/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-04-05 16:33:54,392 [P2436/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:33:54,423 [P2436/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:34:07,595 [P2436/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-04-05 16:34:11,736 [P2436/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:34:11,845 [P2436/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:34:32,111 [P2436/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Skimped Hill Health Centre' with Id '1386' has been published.
+ 2016-04-05 16:34:36,189 [P2436/D2/T16] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:34:36,220 [P2436/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:34:54,564 [P2436/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Maidenhead Outpatients Department' with Id '1387' has been published.
+ 2016-04-05 16:34:58,658 [P2436/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:34:58,783 [P2436/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:35:19,502 [P2436/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'St Mark's Hospital Community Health Clinic' with Id '1387' has been published.
+ 2016-04-05 16:35:23,611 [P2436/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:35:23,642 [P2436/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:40:26,096 [P2436/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been unpublished.
+ 2016-04-05 16:40:30,299 [P2436/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:40:30,330 [P2436/D2/T50] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:40:47,971 [P2436/D2/T61] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-04-05 16:41:56,471 [P2436/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-04-05 16:42:00,565 [P2436/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:42:00,596 [P2436/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:43:50,346 [P2436/D2/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-04-05 16:43:54,409 [P2436/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:43:54,440 [P2436/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:44:44,565 [P2436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-04-05 16:44:48,737 [P2436/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:44:48,768 [P2436/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:45:20,862 [P2436/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-04-05 16:45:24,956 [P2436/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:45:24,987 [P2436/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:45:30,331 [P2436/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital' with Id '1210' has been published.
+ 2016-04-05 16:45:34,409 [P2436/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:45:34,440 [P2436/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:46:09,409 [P2436/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-04-05 16:46:13,550 [P2436/D2/T42] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:46:13,597 [P2436/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 16:46:56,659 [P2436/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-04-05 16:47:00,784 [P2436/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2016-04-05 16:47:00,925 [P2436/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2016-04-05 17:17:41,866 [P2436/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-04 17:17:41
+ 2016-04-05 21:17:41,894 [P2436/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-04-04 21:17:41

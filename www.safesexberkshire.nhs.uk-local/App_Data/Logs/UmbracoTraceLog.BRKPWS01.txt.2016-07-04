@@ -1,0 +1,24 @@
+﻿ 2016-07-04 02:40:02,770 [P4912/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-03 02:40:02
+ 2016-07-04 05:34:01,212 [P4912/D2/T76] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-04 06:40:02,783 [P4912/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-03 06:40:02
+ 2016-07-04 10:40:02,952 [P4912/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-03 10:40:02
+ 2016-07-04 11:28:46,332 [P4912/D2/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username julia.tassano-smith@royalberkshire.nhs.uk from IP address 62.252.201.238
+ 2016-07-04 11:28:46,332 [P4912/D2/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: julia.tassano-smith@royalberkshire.nhs.uk logged in from IP address 62.252.201.238
+ 2016-07-04 11:28:46,723 [P4912/D2/T54] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-04 11:28:46,723 [P4912/D2/T54] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-07-04 11:28:46,848 [P4912/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-04 11:28:46,848 [P4912/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-07-04 11:28:46,910 [P4912/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-04 11:28:46,910 [P4912/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-07-04 11:28:46,942 [P4912/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-04 11:28:46,942 [P4912/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-04 11:28:46,942 [P4912/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-04 11:28:46,942 [P4912/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-07-04 11:33:21,942 [P4912/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-07-04 11:33:22,208 [P4912/D2/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-04 11:33:22,208 [P4912/D2/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-07-04 11:33:26,427 [P4912/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-07-04 11:33:26,536 [P4912/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-04 14:40:02,964 [P4912/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-03 14:40:02
+ 2016-07-04 18:40:02,977 [P4912/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-03 18:40:02
+ 2016-07-04 22:40:02,989 [P4912/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-03 22:40:02

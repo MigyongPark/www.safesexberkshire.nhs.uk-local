@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+@{
+    var parentPage = Umbraco.TypedContent(1247);      @* The Pharmacy Catalogue page *@
+    var pharmacies = parentPage.Children;             @* The pharmacy entries *@
+}
+<div class="row margin">
+	<div class="col-xs-12">
+    @{ Html.RenderPartial("Breadcrumbs"); }
+    <h1>Pharmacies that provide Azithromycin for chlamydia treatment</h1>
+    <p>Azithromycin, is available for free, on receipt of notification of a positive test result to young people aged 15-24</p>
+    @if(pharmacies.Count() > 0){
+      <ul>
+      @foreach (var child in pharmacies) {
+        @* only show the pharmacies that provide Azithromycin for chlamydia treatment *@
+        if(@child.GetPropertyValue<string>("azithromycin") == "True"){
+          <li><a href="@child.Url"><strong>@child.GetPropertyValue("pharmacyName")</strong></a><br>
+          @child.GetPropertyValue("addressLine1"), @child.GetPropertyValue("citytown"), @child.GetPropertyValue("postcode")
+          </li>
+
+        }
+      }
+      </ul>
+    } else {
+      <p>Sorry there are no pharmaices that provide Azithromycin at present</p>
+    }
+  </div>
+</div>

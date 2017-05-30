@@ -1,0 +1,210 @@
+﻿ 2016-03-18 01:10:01,843 [P5576/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 01:10:01
+ 2016-03-18 05:10:01,856 [P5576/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 05:10:01
+ 2016-03-18 09:10:01,868 [P5576/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 09:10:01
+ 2016-03-18 11:25:03,738 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-03-18 11:25:03,738 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-03-18 11:25:03,753 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-03-18 11:25:03,753 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-03-18 11:25:03,753 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-03-18 11:25:03,753 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-03-18 11:25:03,910 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-03-18 11:25:03,910 [P5576/D2/T63] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-03-18 11:25:03,925 [P5576/D2/T95] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-03-18 11:25:03,925 [P5576/D2/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-03-18 11:25:03,925 [P5576/D2/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-03-18 11:25:03,925 [P5576/D2/T8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-03-18 11:25:34,019 [P5576/D2/T53] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-03-18 11:33:37,129 [P5576/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-03-18 11:33:37,192 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-03-18 11:33:37,192 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-03-18 11:33:37,411 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-03-18 11:33:37,426 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 19ms)
+ 2016-03-18 11:33:37,458 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-03-18 11:33:37,473 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-03-18 11:33:37,473 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-03-18 11:33:37,473 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-03-18 11:33:37,489 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-03-18 11:33:37,489 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-03-18 11:33:37,489 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-03-18 11:33:37,489 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 1ms)
+ 2016-03-18 11:33:37,536 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-03-18 11:33:37,536 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-03-18 11:33:37,536 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-03-18 11:33:37,536 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-03-18 11:33:38,770 [P5576/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-18 11:33:39,192 [P5576/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-18 11:33:39,192 [P5576/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-18 11:33:39,270 [P5576/D3/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will rebuild its caches and indexes and then adjust it's last synced id to the latest found in the database and will start maintaining cache updates based on that id
+ 2016-03-18 11:33:39,364 [P5576/D3/T1] INFO  umbraco.content - Load Xml from file...
+ 2016-03-18 11:33:39,364 [P5576/D3/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2016-03-18 11:33:39,379 [P5576/D3/T1] INFO  umbraco.content - Loading content from database...
+ 2016-03-18 11:33:42,348 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-03-18 11:33:42,348 [P5576/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2016-03-18 11:33:43,489 [P5576/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-03-18 11:33:43,505 [P5576/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-03-18 11:33:43,505 [P5576/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-03-18 11:33:43,520 [P5576/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6638ms)
+ 2016-03-18 11:33:44,645 [P5576/D3/T84] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.safesexberkshire.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-03-18 11:33:45,083 [P5576/D3/T84] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-03-18 11:33:45,083 [P5576/D3/T84] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-03-18 11:33:45,505 [P5576/D3/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 11:33:45,739 [P5576/D3/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 11:34:46,817 [P5576/D3/T87] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 11:34:46
+ 2016-03-18 11:52:43,054 [P5576/D3/T36] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.166
+ 2016-03-18 11:52:43,069 [P5576/D3/T36] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.166
+ 2016-03-18 11:52:43,413 [P5576/D3/T36] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-18 11:52:43,413 [P5576/D3/T36] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-03-18 11:52:43,554 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-03-18 11:52:43,554 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-03-18 11:52:43,788 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-18 11:52:43,788 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-18 11:52:43,788 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-18 11:52:43,788 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-18 11:52:44,350 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-18 11:52:44,350 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-18 11:53:13,460 [P5576/D3/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contraception' with Id '1224' has been published.
+ 2016-03-18 11:53:13,757 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-03-18 11:53:13,757 [P5576/D3/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-03-18 11:53:18,054 [P5576/D3/T63] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 11:53:18,085 [P5576/D3/T42] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 12:01:34,258 [P5576/D3/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1110' has been published.
+ 2016-03-18 12:01:38,383 [P5576/D3/T36] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 12:01:38,414 [P5576/D3/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 12:01:55,070 [P5576/D3/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1110' has been published.
+ 2016-03-18 12:01:59,133 [P5576/D3/T61] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 12:01:59,164 [P5576/D3/T86] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 13:36:39,003 [P5576/D3/T51] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-03-18 13:37:12,550 [P5576/D3/T42] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 85.255.235.170
+ 2016-03-18 13:37:12,550 [P5576/D3/T42] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 85.255.235.170
+ 2016-03-18 13:37:12,706 [P5576/D3/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-18 13:37:12,706 [P5576/D3/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-18 13:37:25,941 [P5576/D3/T61] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 85.255.232.151
+ 2016-03-18 13:37:25,941 [P5576/D3/T61] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 85.255.232.151
+ 2016-03-18 14:08:57,695 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-03-18 14:08:57,695 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-03-18 14:08:57,710 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-03-18 14:08:57,710 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-03-18 14:08:57,710 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-03-18 14:08:57,710 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-03-18 14:08:57,710 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-03-18 14:08:57,710 [P5576/D3/T51] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-03-18 14:08:57,726 [P5576/D3/T69] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-03-18 14:08:57,726 [P5576/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-03-18 14:08:57,726 [P5576/D3/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-03-18 14:08:57,726 [P5576/D3/T36] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-03-18 14:09:27,851 [P5576/D3/T42] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-03-18 14:09:31,867 [P4464/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-03-18 14:09:31,898 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-03-18 14:09:31,913 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-03-18 14:09:32,132 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-03-18 14:09:32,163 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 25ms)
+ 2016-03-18 14:09:32,210 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-03-18 14:09:32,210 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-03-18 14:09:32,210 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-03-18 14:09:32,210 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-03-18 14:09:32,242 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-03-18 14:09:32,242 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-03-18 14:09:32,242 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-03-18 14:09:32,242 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-03-18 14:09:32,304 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-03-18 14:09:32,304 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-03-18 14:09:32,304 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-03-18 14:09:32,304 [P4464/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-03-18 14:09:33,335 [P4464/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-18 14:09:33,632 [P4464/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-18 14:09:33,632 [P4464/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-18 14:09:33,663 [P4464/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-03-18 14:09:33,695 [P4464/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-03-18 14:09:33,788 [P4464/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-03-18 14:09:33,804 [P4464/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2146ms)
+ 2016-03-18 14:09:34,460 [P4464/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.safesexberkshire.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-03-18 14:10:24,726 [P4464/D2/T9] INFO  umbraco.content - Load Xml from file...
+ 2016-03-18 14:10:24,726 [P4464/D2/T9] INFO  umbraco.content - Loaded Xml from file.
+ 2016-03-18 14:10:24,960 [P4464/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-03-18 14:10:24,960 [P4464/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-03-18 14:10:25,929 [P4464/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-03-18 14:10:25,929 [P4464/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-03-18 14:11:27,664 [P4464/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 14:11:27
+ 2016-03-18 14:19:19,008 [P4464/D2/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1110' has been published.
+ 2016-03-18 14:19:19,227 [P4464/D2/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-03-18 14:19:19,227 [P4464/D2/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-03-18 14:19:24,149 [P4464/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:19:24,211 [P4464/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:20:09,915 [P4464/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-18 14:20:09,915 [P4464/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-03-18 14:20:10,055 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-18 14:20:10,055 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2016-03-18 14:20:10,102 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-18 14:20:10,102 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-18 14:20:10,102 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-18 14:20:10,102 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-18 14:20:10,149 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-03-18 14:20:10,149 [P4464/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-03-18 14:20:22,337 [P4464/D2/T3] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'new item' with Id '0' has been published.
+ 2016-03-18 14:20:26,477 [P4464/D2/T21] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:20:26,508 [P4464/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:21:01,712 [P4464/D2/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1110' has been published.
+ 2016-03-18 14:21:05,790 [P4464/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:21:05,821 [P4464/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:22:10,806 [P4464/D2/T3] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Relationships' with Id '1160' has been published.
+ 2016-03-18 14:22:14,915 [P4464/D2/T21] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:22:14,931 [P4464/D2/T19] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:23:30,509 [P4464/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'new item' with Id '1306' has been published.
+ 2016-03-18 14:23:30,509 [P4464/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexual Assault and Male Rape' with Id '1186' has been published.
+ 2016-03-18 14:23:30,509 [P4464/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FGM' with Id '1187' has been published.
+ 2016-03-18 14:23:30,509 [P4464/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Male Rape' with Id '1188' has been published.
+ 2016-03-18 14:23:30,509 [P4464/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Domestic Abuse' with Id '1189' has been published.
+ 2016-03-18 14:23:30,509 [P4464/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergency' with Id '1238' has been published.
+ 2016-03-18 14:23:34,868 [P4464/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:23:34,899 [P4464/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:24:52,587 [P4464/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Prep and Pep' with Id '1130' has been published.
+ 2016-03-18 14:24:56,681 [P4464/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:24:56,712 [P4464/D2/T11] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:25:36,540 [P4464/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1110' has been published.
+ 2016-03-18 14:25:40,603 [P4464/D2/T3] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:25:40,634 [P4464/D2/T9] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:27:39,587 [P4464/D2/T18] ERROR Umbraco.Web.PropertyEditors.RteEmbedController - Error embedding url https://youtu.be/cc2TRBol7TE - width: 360 height: 240
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 216.58.198.110:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.DownloadResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.GetXmlResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.OEmbedVideo.GetMarkup(String url, Int32 maxWidth, Int32 maxHeight)
+   at Umbraco.Web.PropertyEditors.RteEmbedController.GetEmbed(String url, Int32 width, Int32 height)
+ 2016-03-18 14:40:23,214 [P4464/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Travelling on holiday - for sex' with Id '1175' has been unpublished.
+ 2016-03-18 14:40:27,339 [P4464/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:40:27,370 [P4464/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:41:00,605 [P4464/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sexual Assault and Rape' with Id '1186' has been published.
+ 2016-03-18 14:41:04,683 [P4464/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:41:04,714 [P4464/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:41:12,402 [P4464/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Male Rape' with Id '1188' has been unpublished.
+ 2016-03-18 14:41:16,464 [P4464/D2/T3] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:41:16,495 [P4464/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:41:21,964 [P4464/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Help & Support' with Id '1125' has been published.
+ 2016-03-18 14:41:26,058 [P4464/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:41:26,105 [P4464/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 14:41:43,480 [P4464/D2/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'new item' with Id '1306' has been unpublished.
+ 2016-03-18 14:41:47,542 [P4464/D2/T30] INFO  umbraco.content - Save Xml to file...
+ 2016-03-18 14:41:47,573 [P4464/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-18 18:11:27,676 [P4464/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 18:11:27
+ 2016-03-18 22:11:27,689 [P4464/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-17 22:11:27

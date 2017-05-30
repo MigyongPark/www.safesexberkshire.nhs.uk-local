@@ -1,0 +1,34 @@
+﻿ 2016-05-18 00:17:35,697 [P6452/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-17 00:17:35
+ 2016-05-18 02:56:27,091 [P6452/D2/T121] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-18 04:17:35,725 [P6452/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-17 04:17:35
+ 2016-05-18 04:58:32,074 [P6452/D2/T129] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-18 08:17:35,753 [P6452/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-17 08:17:35
+ 2016-05-18 09:04:07,931 [P6452/D2/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-18 09:04:13,852 [P6452/D2/T113] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-18 11:41:56,432 [P6452/D2/T34] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-05-18 11:41:56,432 [P6452/D2/T34] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-05-18 11:41:56,791 [P6452/D2/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-18 11:41:56,791 [P6452/D2/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-05-18 11:41:56,948 [P6452/D2/T51] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-05-18 11:41:56,948 [P6452/D2/T51] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-05-18 11:41:57,432 [P6452/D2/T117] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-18 11:41:57,432 [P6452/D2/T117] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-18 11:41:57,432 [P6452/D2/T117] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-18 11:41:57,448 [P6452/D2/T117] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-05-18 11:41:57,510 [P6452/D2/T34] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-18 11:41:57,510 [P6452/D2/T34] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-05-18 11:42:21,791 [P6452/D2/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-05-18 11:42:21,791 [P6452/D2/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2016-05-18 11:48:32,917 [P6452/D2/T117] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-18 12:17:35,780 [P6452/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-17 12:17:35
+ 2016-05-18 12:58:37,582 [P6452/D2/T35] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-18 14:59:25,067 [P6452/D2/T60] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 151.229.62.130
+ 2016-05-18 14:59:25,067 [P6452/D2/T60] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 151.229.62.130
+ 2016-05-18 14:59:25,114 [P6452/D2/T111] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-18 14:59:25,114 [P6452/D2/T111] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-18 15:02:37,520 [P6452/D2/T62] INFO  Umbraco.Web.Editors.AuthenticationController - User webteam@berkshire.nhs.uk from IP address 151.229.62.130 has logged out
+ 2016-05-18 15:02:48,036 [P6452/D2/T111] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 151.229.62.130
+ 2016-05-18 15:02:48,036 [P6452/D2/T111] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 151.229.62.130
+ 2016-05-18 16:17:39,232 [P6452/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-17 16:17:39
+ 2016-05-18 20:17:39,247 [P6452/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-17 20:17:39
+ 2016-05-18 21:15:37,941 [P6452/D2/T99] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

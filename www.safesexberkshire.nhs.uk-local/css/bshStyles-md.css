@@ -1,0 +1,217 @@
+/***** Medium devices Desktops (≥992px) *****/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   /*color: #3BBFB2;*/
+}
+.mobile {
+   display: none;
+}
+#map-canvas3 {
+   height: 600px !important;
+}
+
+.nhs-logo{
+ width: 343px;
+display: block;
+position: absolute;
+top: -128px;
+right: 43px;
+
+}
+
+/* Added by Alex on 07/04/17 : 12:50pm */
+
+.logoRow {
+	margin-top: 60px;
+}
+
+/* END -- Added by Alex on 07/04/17 : 12:50pm */
+
+.nhs-logo-lg {
+  width: 320px;;
+  display:block;
+  /*padding: 20px 10px;*/
+	padding: 0;
+}
+
+@media (min-width: 480px) {
+	.legalStuff #nhsLogoFtr {
+        display: none;
+    }
+}
+
+.navbar-header {
+   top: 46px;
+}
+
+.search-sml {
+    right: 0px;
+}
+
+.main-heading {
+  padding: 10px;
+  font-size: 30pt;
+  margin-top: 0px;
+}
+
+.contentPromoPanel h2 a {
+  font-size: 24pt;
+}
+
+.contentPromoPanel h2 a:hover {
+  text-decoration: underline;
+}
+
+.contentPromoPanel {
+  border: 10px solid #42454a;
+  color:#f2eddc;
+  /*min-height: 12em;*/
+}
+
+.main-title {
+background: url("../images/header-image-large8.png") no-repeat 50% 50%;
+width: 100%;
+margin:0 auto;
+height: 283px;
+}
+
+.main-title-temp {
+background: url("../images/HIVtestweek 1170x283-v3.jpg") no-repeat 50% 50%;
+width: 100%;
+margin:0 auto;
+height: 283px;
+}
+
+@media (min-width: 991px) {
+   .navbar #navbar li {
+      margin-right: .5em;
+   }
+}
+
+
+.header-img-lrg {
+   margin-bottom: -93px;
+}
+.postcode2 {
+   background-color: #cd1e3b;
+   height: 50px;
+   color: #F2EDDC;
+   font-size: 1em;
+   margin-top: 0px;
+   /*margin-bottom: 10px;*/
+   border-radius: 5px;
+}
+.gutter-padding {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+#questions, #clinicbg, #signposts {
+   /*margin-top: 15px;*/
+   border: 0;
+   width: 31%;
+}
+
+li.sign:nth-child(odd) > a > span.arrow, li.sign:nth-child(odd) > a:hover > span.arrow {
+ 	margin-right: -2px;
+}
+
+li.sign:nth-child(even) > a > span.arrow, li.sign:nth-child(even) > a:hover > span.arrow {
+ 	margin-right: -2px;
+}
+
+#slide {
+  width: 900px;
+}
+
+/*****   Style for isotope/masonry     ******/
+  .grid-sizer, .grid-item {
+    width: 33.333%;
+  }
+
+  .grid-item {
+    width:  33.333%;
+    height: auto;
+    float: left;
+    background: #2296DD;
+    border: 4px solid #42454a;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+
+#questions {
+   margin: 0px 24px 0px 15px;
+   padding: 0;
+}
+#clinicbg {
+   margin-right: 24px;
+}
+#contentbg {
+   padding: 0px;
+}
+.location {
+   font-size: 100%;
+   /*margin-top: 10px;*/
+}
+
+.icon-magnifier {
+   width: 20px;
+   height: 20px;
+   margin-top: 15px;
+   margin-left: 15px;
+}
+.panel-grey {
+   border-top: 10px solid #42454a;
+   border-right: 5px solid #42454a;
+   border-bottom: 5px solid #42454a;
+}
+.panel-pink {
+   border-top: 10px solid #42454a;
+   border-left: 5px solid #42454a;
+   border-bottom: 5px solid #42454a;
+}
+.panel-turq {
+   border-top: 5px solid #42454a;
+   border-right: 5px solid #42454a;
+   border-bottom: 5px solid #42454a;
+}
+.panel-orange {
+   border-top: 5px solid #42454a;
+   border-left: 5px solid #42454a;
+   border-bottom: 5px solid #42454a;
+}
+.panel-ltgrey {
+   border-right: 5px solid #42454a;
+   border-bottom: 10px solid #42454a;
+}
+.panel-turq2 {
+   border-left: 5px solid #42454a;
+   border-bottom: 10px solid #42454a;
+}
+
+/*****  End Style for isotope/masonry     ******/
+
+a.LocQue {
+	min-height:8em;
+	height:auto !important;
+	height:8em;
+}
+
+
+@media (min-width: 1200px) {}
+table.gsc-search-box {
+   border-style: none;
+   border-width: 0;
+   border-spacing: 0 0;
+   width: 90%;
+   margin-bottom: -5px;
+}
+
+.gsc-control-searchbox-only, .gsc-control-searchbox-only-en {
+    padding: 8px 4px 2px 6px;
+    margin-bottom: 6px;
+    width:100%;
+    float: right;
+     opacity: 0.9;
+    margin-right: 11px;
+}

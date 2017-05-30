@@ -1,0 +1,88 @@
+﻿ 2016-07-29 03:19:38,907 [P9468/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-28 03:19:38
+ 2016-07-29 07:19:38,920 [P9468/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-28 07:19:38
+ 2016-07-29 11:19:38,948 [P9468/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-28 11:19:38
+ 2016-07-29 11:26:41,355 [P9468/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-29 12:10:14,188 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-07-29 12:10:14,188 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-07-29 12:10:14,204 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-07-29 12:10:14,204 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-07-29 12:10:14,204 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-07-29 12:10:14,204 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-07-29 12:10:14,204 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-07-29 12:10:14,251 [P9468/D2/T61] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-07-29 12:10:14,251 [P9468/D2/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-07-29 12:10:14,266 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-07-29 12:10:14,266 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-07-29 12:10:14,266 [P9468/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-07-29 12:10:44,344 [P9468/D2/T52] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-07-29 12:20:07,502 [P8244/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-07-29 12:20:07,533 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-29 12:20:07,549 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-07-29 12:20:07,783 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-29 12:20:07,799 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 19ms)
+ 2016-07-29 12:20:07,830 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-29 12:20:07,845 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-07-29 12:20:07,845 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-29 12:20:07,845 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-07-29 12:20:07,877 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-29 12:20:07,877 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-07-29 12:20:07,877 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-29 12:20:07,877 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-07-29 12:20:07,939 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-29 12:20:07,939 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-07-29 12:20:07,939 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-29 12:20:07,955 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 7ms)
+ 2016-07-29 12:20:09,158 [P8244/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-29 12:20:09,470 [P8244/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-29 12:20:09,486 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-29 12:20:09,486 [P8244/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-07-29 12:20:10,283 [P8244/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-29 12:20:10,299 [P8244/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-29 12:20:10,330 [P8244/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-29 12:20:10,424 [P8244/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-29 12:20:10,439 [P8244/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3149ms)
+ 2016-07-29 12:20:11,174 [P8244/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.sexualhealth.berkshirehealthcare.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-07-29 12:21:40,377 [P8244/D2/T13] INFO  umbraco.content - Load Xml from file...
+ 2016-07-29 12:21:40,392 [P8244/D2/T13] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-29 12:21:41,361 [P8244/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-29 12:21:41,361 [P8244/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-29 12:22:39,580 [P8244/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-28 12:22:39
+ 2016-07-29 13:41:32,683 [P8244/D2/T25] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-29 13:41:45,027 [P8244/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-29 13:41:55,121 [P8244/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-07-29 13:42:04,918 [P8244/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-07-29 13:42:06,418 [P8244/D2/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-07-29 13:43:18,355 [P8244/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-07-29 13:43:18,355 [P8244/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-07-29 13:43:18,933 [P8244/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-29 13:43:18,933 [P8244/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2016-07-29 13:43:19,136 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-29 13:43:19,136 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-07-29 13:43:19,168 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-29 13:43:19,168 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-07-29 13:43:19,183 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-29 13:43:19,183 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-29 13:43:19,183 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-29 13:43:19,183 [P8244/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-07-29 13:43:28,636 [P8244/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username jo.jefferies@bracknell-forest.gov.uk from IP address 195.59.13.75
+ 2016-07-29 13:43:28,636 [P8244/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: jo.jefferies@bracknell-forest.gov.uk logged in from IP address 195.59.13.75
+ 2016-07-29 13:52:52,888 [P8244/D2/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-29 13:52:52,888 [P8244/D2/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-07-29 13:52:52,950 [P8244/D2/T32] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jo.jefferies@bracknell-forest.gov.uk from IP address 195.59.13.75
+ 2016-07-29 13:52:55,997 [P8244/D2/T32] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jo.jefferies@bracknell-forest.gov.uk from IP address 195.59.13.75
+ 2016-07-29 13:53:04,278 [P8244/D2/T32] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username jo.jefferies@bracknell-forest.gov.uk from IP address 195.59.13.75
+ 2016-07-29 13:53:04,278 [P8244/D2/T32] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: jo.jefferies@bracknell-forest.gov.uk logged in from IP address 195.59.13.75
+ 2016-07-29 13:57:14,513 [P8244/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Free Condoms for Young People' with Id '1422' has been published.
+ 2016-07-29 13:57:18,826 [P8244/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-07-29 13:57:18,904 [P8244/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-29 16:22:39,608 [P8244/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-28 16:22:39
+ 2016-07-29 20:22:39,636 [P8244/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-28 20:22:39
+ 2016-07-29 23:03:36,405 [P8244/D2/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

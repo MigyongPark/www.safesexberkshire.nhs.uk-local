@@ -1,0 +1,196 @@
+.surveyBanner {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #4B91C0;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 9000;
+    transition: margin 0.2s ease, opacity 0.3s ease;
+    margin: 0;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+.surveyBanner--hide {
+	visibility: hidden;
+}
+
+.surveyBanner__bannerLink {
+	position: absolute;
+	top: 0;
+	left: 0;
+    text-decoration: none;
+	width: 80%;
+	height: 70px;
+	float: left;
+}
+
+.surveyBanner__ul {
+    overflow: hidden;
+    margin: 3px auto;
+    padding: 0;
+    display: table;
+}
+
+.surveyBanner__li {
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 7px 0.45em;
+}
+
+.surveyBanner__icon {
+    display: inline-block;
+}
+
+.surveyBanner__svg {
+    fill: currentColor;
+    width: 39px;
+    height: 48px;
+}
+
+.surveyBanner__svg--cross {
+	fill: #F2EDDC;
+	width: 20px;
+	margin-top: 1px;
+	opacity: 0.5;
+	transition: opacity 0.35s ease;
+}
+
+.surveyBanner__svg--cross:hover {
+	opacity: 0.8;
+}
+
+.surveyBanner__text {
+    font-family: Geomanist, sans-serif;
+    font-size: 1em;
+	font-weight: 500;
+    color: #F2EDDC;
+    letter-spacing: 0.52px;
+    padding-left: 2px;
+}
+
+.surveyBanner__text--reset{
+  margin: 0;
+  padding: 0;
+}
+
+/*.surveyBanner__arrow {
+    width: 47px;
+    height: 7px;
+	margin-bottom: 5px;
+}*/
+
+.li__content--vertAdj {
+    margin-top: -3px;
+}
+
+.surveyBanner--fixed--hidden {
+    margin-top: -150px;
+}
+
+.surveyBanner--rm {
+    opacity: 0;
+}
+
+.icn-rmBanner {
+    float: left;
+}
+
+
+/*.surveyBanner__icon:hover {
+    opacity: 1;
+}
+
+.surveyBanner__icon:hover .icn-rmBanner {
+    fill: #fff;
+}*/
+
+@media screen and (min-device-width: 321px) and (max-device-width: 399px) {
+    .surveyBanner {
+        top: 23px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 399px) {
+	.surveyBanner {
+        top: 52px;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 568px) {
+    .surveyBanner {
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 568px) {
+	.surveyBanner {
+        top: 0px;
+    }
+}
+
+@media screen and (min-device-width: 569px) and (max-device-width: 767px) {
+    .surveyBanner {
+        top: 73px;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width: 767px) {
+	.surveyBanner {
+        top: 52px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (min-width: 768px) {
+    .surveyBanner {
+        top: 100%;
+        right: 0;
+        padding-top: 0;
+        width: 200px;
+        height: 100px;
+        margin: -100px 0;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-top-right-radius: 0;
+        box-shadow: -1px 1px 14px 0 rgba(0, 0, 0, 0.35);
+    }
+	.surveyBanner--hide {
+		visibility: visible;
+	}
+    .surveyBanner__ul {
+        margin: 0;
+        padding: 30px 0 0 22px;
+        ;
+    }
+    .surveyBanner__li {
+        margin: 0;
+        padding: 0 5px;
+        float: left;
+    }
+    .surveyBanner__svg {}
+    .surveyBanner__icon {}
+    .surveyBanner__text {
+		text-align: left;
+        font-size: 20px;
+        letter-spacing: 0.26px;
+        margin: 7px 0 0 0;
+        width: 81px;
+		line-height: 0.9em;
+    }
+    .surveyBanner__arrow {
+        width: 94px;
+        height: 14px;
+        margin-bottom: 19px;
+    }
+    .surveyBanner--fixed--hidden {
+        margin-right: -205px;
+    }
+    .surveyBanner--rm {
+        opacity: 0;
+    }
+}

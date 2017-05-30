@@ -1,0 +1,89 @@
+.nhs-logo-lg {
+	margin-left: -40px;
+}
+
+.nhs-logo-lg--white {
+		display: none;
+	}
+
+.ss-logo {
+	position: relative;
+	right: -15px;
+    float: right;
+	width: 170px;
+	margin: 0;
+}
+
+@media (min-width: 400px) and (max-width: 568px) {
+	.nhs-logo-lg--white {
+		display: block;
+   		width: 260px;
+    	position: absolute;
+    	left: 0;
+	}
+}
+
+@media (min-width: 569px) {
+	.ss-logo {
+		top: 26px;
+	}
+}
+
+.altfunc {
+	position: absolute;
+	top: 116px;
+}
+
+
+@media (min-width: 400px) {
+}
+
+.altfunc .header-top {
+	position: static;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 0;
+}
+
+@media screen only and (min-width: 320px) {
+	.altfunc .header-top {
+		margin-top 0;
+	}
+}
+
+@media (min-width: 569px) {
+	.altfunc {
+		top: 245px
+	}
+	
+	.altfunc .header-top {
+		width: 280px;
+	}
+}
+
+@media (min-width: 768px) {
+	.altfunc {
+		top: 228px
+	}
+	
+	.altfunc .header-top {
+    	width: 300px;
+	}
+}
+
+.altfunc .search-sml {
+	position: relative;
+	padding: 0;
+	top: 0;
+	right: 0;
+	margin: 0 0 0 0;
+	width: 100%;
+	min-width: 210px;
+}
+
+@media (min-width: 568px) {
+	.altfunc .search-sml {
+		margin-top: 0;
+	}
+}

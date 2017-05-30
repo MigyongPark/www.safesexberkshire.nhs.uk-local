@@ -1,0 +1,13 @@
+/***** Large devices Desktops (≥1200px) *****/
+
+#slide {
+  width: 1100px;
+}
+
+.search-sml {
+    right: 6px;
+}
+
+a.LocQue {
+  min-height: 5em;
+}

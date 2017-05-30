@@ -1,0 +1,51 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+@{
+    var parentPage = Umbraco.TypedContent(1247);      @* The Pharmacy Catalogue page *@
+    var pharmacies = parentPage.Children;             @* The pharacy entries *@
+}
+<div class="row margin">
+	<div class="col-xs-12">
+    @{ Html.RenderPartial("Breadcrumbs"); }
+    <h1>Pharmacies that provide EHC (morning after pill) treatment</h1>
+	<p>Many pharmacies are able to provide emergency contraception for a fee and some are able to provide it as a free service for 13-19 year olds.</p>
+		
+<p> Women of any age can access free emergency contraception at their GP or your local sexual health service. </p>
+<p>If you have received a diagnosis of Chlamydia through our online testing service, you will be advised of local pharmacies where you will be able to access Antibiotic treatment. In order to receive the treatment please bring along the code you received.</p>
+    <p>Emergency contraception can prevent pregnancy after unprotected sex or if a contraceptive method fails e.g a condom splits or pills are missed.
+    The sooner you take action the more effective the treatment will be, so please call into clinic  or phone us
+    on 0118 322 7202 (Reading) or 01753 635302. (Slough) if you think you might need emergency contraception.
+    </p>
+    <p>Emergency contraception is available to patients of all ages. If you require emergency contraception call in to any of the 'walk-in' clinics.</p>
+    <p>There are two types of emergency contraception:</p>
+
+    <ul>
+      <li>The <strong>emergency contraceptive pill</strong> (sometimes called the morning after pill) – this can be used up to 5 days after sex</li>
+      <li>The <strong>IUD</strong> (intrauterine device, or coil) – an IUD can be inserted up to five days after unprotected sex, or up to five days after the earliest time you could have ovulated.
+    </li>
+    </ul>
+
+    <p>If you are not sure about timing, give us a call  and we will discuss your options. 0118 322 7202 (Reading) or 01753 635302. (Slough)</p>
+    <p>Visit NHS Choices for <a href="http://www.nhs.uk/conditions/contraception-guide/pages/emergency-contraception.aspx" target="_blank">more information about emergency contraception</a> <span class="newWindow"></span></p>
+	<p><a data-id="1439" href="/media/1063/levonorgestrel_patient_sheet.pdf" target="_blank" title="Levonorgestrel_patient_sheet.pdf">Important information for women taking other medicines which might reduce how well emergency contraception works</a> <span class="newWindow"></span></p>
+	
+    @if(pharmacies.Count() > 0){
+      <ul>
+      @foreach (var child in pharmacies) {
+        @* only show the pharmacies that provide EHC treatment *@
+        if(@child.GetPropertyValue<string>("ehcContract") == "True"){
+          <li><a href="@child.Url"><strong>@child.GetPropertyValue("pharmacyName")</strong></a><br>
+          @child.GetPropertyValue("addressLine1"), @child.GetPropertyValue("citytown"), @child.GetPropertyValue("postcode")
+          </li>
+
+        }
+      }
+      </ul>
+    } else {
+      <p>Sorry there are no pharmaces that provide EHC at present</p>
+    }
+  </div>
+</div>

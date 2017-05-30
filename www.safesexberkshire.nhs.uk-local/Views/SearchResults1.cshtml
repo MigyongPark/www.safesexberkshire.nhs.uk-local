@@ -1,0 +1,318 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+<div class="grey">
+        <h1>@Model.Content.Name</h1>
+</div>
+
+<div class="mainBody">
+  <div class="row">
+	<div class="col-xs-12">
+
+  @*** Results based on Postcode / Location search ***@
+  @{
+  if ((Request.Form["hdnSearchType"] == "Pcode" && !string.IsNullOrEmpty(Request.Form["pCode"])) || (Request.Form["hdnSearchType"] == "Location" && Request.Form["pCode2"] == "Location"))
+  {
+    var resultText = ""; var strPostCode = ""; var strLat = ""; var strLng = "";
+    @*** setup the variable dependant on whether the search is poastcode or location based ***@
+    if (Request.Form["pCode2"] == "Location") {
+      /*<p>1: @Request.Form["pCode2"] <br> 2: @Request.Form["txtLatitude2"] <br> 3: @Request.Form["txtLongitude2"] </p>*/
+      strPostCode = Request.Form["pCode2"]; strLat = Request.Form["txtLatitude2"]; strLng = Request.Form["txtLongitude2"];
+    	resultText = "you";
+    } else {
+      strPostCode = Request.Form["pCode"]; strLat = Request.Form["txtLatitude"]; strLng = Request.Form["txtLongitude"];
+    	resultText = strPostCode;
+    }
+
+    <p>We have found <strong><span id="txtServicesFound"></span></strong> services near @resultText</p>
+    /*<p>strPostCode: @strPostCode; <br />strLat: @strLat; <br />strLng: @strLng</p>*/
+    <div id="map-canvas3" style="width:100%; height: 600px;"></div>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3&amp;region=GB&amp;sensor=false"></script>
+    <p>&nbsp;</p>
+
+    var servicePage = Umbraco.TypedContent(1200);          @* The ID of the Service Repository *@
+    var results = servicePage.Children().OrderBy("Name");
+    var itemCount = 0;
+
+    if (results.Count() > 0)
+    {
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <th>&nbsp;</th>
+          <th>Service Location</th>
+          <th>Address</th>
+          <th>PostCode</th>
+          <th>Miles</th>
+        </tr>
+        @foreach (var serviceLocation in results)
+        {
+          var pCode1 = serviceLocation.GetPropertyValue<string>("postcode");
+          var address1 = serviceLocation.GetPropertyValue<string>("addressLine1");
+          var town = serviceLocation.GetPropertyValue<string>("cityTown");
+          <tr id="item-@itemCount" style="display: none;">
+            <td id="itemCountCell-@itemCount"></td>
+            <td><a href="@serviceLocation.Url">@serviceLocation.Name</a></td>
+            <td>@address1</td>
+            <td>@pCode1</td>
+            <td><span id="spn-@itemCount"></span></td>
+          </tr>
+          itemCount += 1;
+        }
+      </table>
+    }
+
+    <script type="text/javascript">
+      var dataDb;
+
+      @{
+        itemCount = 0 ;
+        @("dataDb = [");
+        foreach (var serviceLocation in results)
+        {
+      		if (itemCount > 0) { @(","); }
+      		var pCode = serviceLocation.GetPropertyValue<string>("postcode");
+      		var latitude = serviceLocation.GetPropertyValue<string>("latitude");
+      		var longitude = serviceLocation.GetPropertyValue<string>("longitude");
+          var address1 = serviceLocation.GetPropertyValue<string>("addressLine1");
+      		if (pCode != "" && latitude != "" &&  longitude != "")
+      		{
+      			@Html.Raw("{id:\"" + itemCount + "\",name:\"" + @serviceLocation.Name + "\",addLine1:\"" + address1 + "\",pcode:\"" + pCode + "\",surl:\"" + HttpUtility.JavaScriptStringEncode(@serviceLocation.Url) + "\",lat:" + latitude + ",lng:" + longitude + "} \r\n");
+      			itemCount += 1;
+      		}
+        }
+        @("];");
+      }
+
+      var dataLen = dataDb.length;
+      // alert("Len: " + dataLen);
+
+      var marker;
+      var markers = new Array();
+      var map;
+      var GpMarker = new google.maps.MarkerImage("/images/marker_red.png");
+      var myLatlng = new google.maps.LatLng(@strLat, @strLng);
+      var homeImage  = new google.maps.MarkerImage("/images/house-icon.png");
+      var infowindow;
+      var intFound = 0;		document.getElementById("txtServicesFound").innerHTML = intFound;
+      var lat_min = 65.0;
+      var lat_max = 45.0;
+      var lng_min = 10.0;
+      var lng_max = -3.0;
+
+      function loadAllMaps()
+      {
+        if (dataLen > 0)
+        {
+          for (var i = 0; i < dataLen; ++i) {
+            var lat = dataDb[i].lat; 	var lng = dataDb[i].lng;
+            var strDistance = parseFloat( distHaversine(parseFloat(@strLat), parseFloat(@strLng), lat, lng)); 	  //  distHaversine
+
+            if ( lat != "" && lng != "" && strDistance < 30 ) // set search to within 50 miles
+            {
+              intFound += 1;
+              var contentString = "<div id='divGmapInfoWin'><a href='" + dataDb[i].surl + "'>"+ intFound + ": "+ dataDb[i].name + "</a><br />" + dataDb[i].addLine1 + "<br />Get Directions to: <a target='_blank' href='https://www.google.co.uk/maps?daddr="+ dataDb[i].pcode +"&saddr="+ "@strPostCode" +",UK&hl=en&dirflg=d&z=14&t=m'>"+ dataDb[i].pcode +"</a></div>" ;
+              //var mouseOverText = dataDb[i].name + " :: " + i;  var uURL = dataDb[i].surl;
+              var mouseOverText = dataDb[i].name;
+
+              var pos = new google.maps.LatLng(lat,lng, true);
+              markers[i] = new google.maps.Marker({ position: pos , map: map, html: contentString, icon: GpMarker, title: mouseOverText  } );
+
+              infowindow = new google.maps.InfoWindow({ content: contentString });
+
+              google.maps.event.addListener(markers[i], 'click', function()
+              { infowindow.setContent(this.html); infowindow.open(map, this); });
+
+              document.getElementById("item-"+i).style.display = "";  document.getElementById("spn-"+i).innerHTML = parseInt(strDistance);
+              document.getElementById("itemCountCell-"+i).innerHTML = intFound;
+
+              if (lat < lat_min) { lat_min = lat ; }
+              if (@strLat < lat_min) { lat_min = @strLat ; }
+              if (lat > lat_max) { lat_max = lat ; }
+              if (@strLat > lat_max) { lat_max = @strLat ; }
+
+              if (lng < lng_min) { lng_min = lng ; }
+              if (@strLng < lng_min) { lng_min = @strLng ; }
+              if (lng > lng_max) { lng_max = lng ; }
+              if (@strLng > lng_max) { lng_max = @strLng ; }
+            }
+          }
+        }
+      }
+
+      function mapLoad()
+      {
+        myOptions = {
+            zoom: 10,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        map = new google.maps.Map(document.getElementById("map-canvas3"), myOptions);
+        marker = new google.maps.Marker({ position: myLatlng, map: map, icon: homeImage, title:"@strPostCode"  });
+
+      }
+
+      // Load default map
+      mapLoad();
+
+      // Loading Clinic Locations from DB (JS)
+      if ( dataDb )
+      {
+        funClearMarkers();
+        loadAllMaps();
+
+        // *** Make center and Fit
+        // map.setCenter(new google.maps.LatLng(
+        //   ((lat_max + lat_min) / 2.0),
+        //   ((lng_max + lng_min) / 2.0)
+        // ));
+
+        map.fitBounds(new google.maps.LatLngBounds(
+          //bottom left
+          new google.maps.LatLng(lat_min, lng_min),
+          //top right
+          new google.maps.LatLng(lat_max, lng_max)
+        ));
+
+        document.getElementById("txtServicesFound").innerHTML = intFound ;
+        // alert("The End : " + lng_min + " : " + lng_max);
+      }
+
+      function funClearMarkers()
+      {
+        if (markers)
+        {
+          for (i in markers) {
+            markers[i].setMap(null);
+          }
+        }
+      }
+
+      function TempWarningMsg()
+      {
+        alert("Due to technical problems, our online applications facility is temporarily down. \n\nWe hope to get this back up and running for you very soon. \n\nYou can still phone us to join a practice list. \n\nMany thanks.");
+        return false;
+      }
+
+      // ******  Vincenty's formula is accurate to within 0.5mm, or 0.000015 , on the ellipsoid being used
+      function distVincenty(lat1, lon1, lat2, lon2)
+      {
+          if ( lat1 == "" ||  lat2 == "" || lon1 == "" || lon2 == "" )
+          {
+              return 0;
+          }
+
+          lat1 = parseFloat(lat1);
+          lon1 = parseFloat(lon1);
+
+          lat2 = parseFloat(lat2);
+          lon2 = parseFloat(lon2);
+
+          var a = 6378137, b = 6356752.314245,  f = 1/298.257223563;  // WGS-84 ellipsoid params
+          var L = (lon2-lon1).toRad();
+
+          var U1 = Math.atan((1-f) * Math.tan(lat1.toRad()));
+          var U2 = Math.atan((1-f) * Math.tan(lat2.toRad()));
+          var sinU1 = Math.sin(U1), cosU1 = Math.cos(U1);
+          var sinU2 = Math.sin(U2), cosU2 = Math.cos(U2);
+
+          var lambda = L, lambdaP, iterLimit = 100;
+          do {
+              var sinLambda = Math.sin(lambda), cosLambda = Math.cos(lambda);
+              var sinSigma = Math.sqrt((cosU2*sinLambda) * (cosU2*sinLambda) +
+                (cosU1*sinU2-sinU1*cosU2*cosLambda) * (cosU1*sinU2-sinU1*cosU2*cosLambda));
+              if (sinSigma==0) return 0;  // co-incident points
+              var cosSigma = sinU1*sinU2 + cosU1*cosU2*cosLambda;
+              var sigma = Math.atan2(sinSigma, cosSigma);
+              var sinAlpha = cosU1 * cosU2 * sinLambda / sinSigma;
+              var cosSqAlpha = 1 - sinAlpha*sinAlpha;
+              var cos2SigmaM = cosSigma - 2*sinU1*sinU2/cosSqAlpha;
+              if (isNaN(cos2SigmaM)) cos2SigmaM = 0;  // equatorial line: cosSqAlpha=0
+              var C = f/16*cosSqAlpha*(4+f*(4-3*cosSqAlpha));
+              lambdaP = lambda;
+              lambda = L + (1-C) * f * sinAlpha * (sigma + C*sinSigma*(cos2SigmaM+C*cosSigma*(-1+2*cos2SigmaM*cos2SigmaM)));
+          } while (Math.abs(lambda-lambdaP) > 1e-12 && --iterLimit>0);
+
+          if (iterLimit==0) return NaN  // formula failed to converge
+
+          var uSq = cosSqAlpha * (a*a - b*b) / (b*b);
+          var A = 1 + uSq/16384*(4096+uSq*(-768+uSq*(320-175*uSq)));
+          var B = uSq/1024 * (256+uSq*(-128+uSq*(74-47*uSq)));
+          var deltaSigma = B*sinSigma*(cos2SigmaM+B/4*(cosSigma*(-1+2*cos2SigmaM*cos2SigmaM)- B/6*cos2SigmaM*(-3+4*sinSigma*sinSigma)*(-3+4*cos2SigmaM*cos2SigmaM)));
+
+          var s = b*A*(sigma-deltaSigma);
+
+          var intKm = (s / 1000) ;
+          // document.getElementById('km').value = intKm.toFixed(3);    alert( intKm.toFixed(3) + " Km" );
+
+          var intMiles = ( 0.62137119 * s ) / 1000 ;	    return(intMiles.toFixed(3));    // returns miles....
+
+          // document.getElementById('miles').value = intMiles.toFixed(3);
+
+          s = s.toFixed(3); // round to 1mm precision
+          return s;
+
+          // note: to return initial/final bearings in addition to distance, use something like:
+          var fwdAz = Math.atan2(cosU2*sinLambda,  cosU1*sinU2-sinU1*cosU2*cosLambda);
+          var revAz = Math.atan2(cosU1*sinLambda, -sinU1*cosU2+cosU1*sinU2*cosLambda);
+          return { distance: s, initialBearing: fwdAz.toDeg(), finalBearing: revAz.toDeg() };
+      }
+
+      Number.prototype.toRad = function()
+      {
+          return this * (Math.PI / 180);
+      }
+      Number.prototype.toDeg = function()
+      {
+          return this * (180 / Math.PI);
+      }
+
+      // Haversine formula = 2
+      function rad2(x)
+      {
+         return x * (Math.PI / 180);
+      }
+
+      function distHaversine(lat1, lon1, lat2, lon2)
+      {
+        if ( lat1 == "" ||  lat2 == "" || lon1 == "" || lon2 == "" )
+        {
+            return 0;
+        }
+
+        lat1 = parseFloat(lat1);
+        lon1 = parseFloat(lon1);
+
+        lat2 = parseFloat(lat2);
+        lon2 = parseFloat(lon2);
+
+        var R = 6371; 		// earth's mean radius in km
+        var dLat  = rad2(lat2 - lat1);
+        var dLong = rad2(lon2 - lon1);
+
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(rad2(lat1)) * Math.cos(rad2(lat2)) * Math.sin(dLong/2) * Math.sin(dLong/2);
+
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        var d = R * c;
+
+        return d.toFixed(3);
+      }
+
+      // distVincenty
+      function toDegrees (rdn)
+      {
+        return rdn * (180 / Math.PI);
+      }
+
+      function toRadians (deg)
+      {
+        return deg * (Math.PI / 180);
+      }
+    </script>
+    }
+    @******** Postcode Search - End **********@
+  }
+	</div>
+  </div>
+</div>

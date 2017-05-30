@@ -1,0 +1,17 @@
+/**umb_name:h2*/
+h2{}
+
+/**umb_name:h3*/
+h3{}
+
+/**umb_name:h4*/
+h4{}
+
+/**umb_name:New Window Icon*/
+.newWindow{/* defined in bshStyles.css */}
+
+body.mce-content-body { 
+	font-family: Geomanist;
+	font-size:14pt; 
+}
+

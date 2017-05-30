@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+	@{
+		var selection = Model.Content.Children.Where("Visible");
+	}
+    @if (selection.Count() > 0)
+    {
+        <ul class="nojs-ul">
+            @foreach (var item in selection)
+            {
+                <li class="level-@item.Level nojs-li">
+                    <a href="@item.Url">@item.Name</a>
+                </li>
+            }
+        </ul>
+    }

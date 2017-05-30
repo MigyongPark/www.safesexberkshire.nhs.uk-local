@@ -1,0 +1,82 @@
+﻿ 2016-07-20 00:11:57,307 [P3864/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 00:11:57
+ 2016-07-20 04:11:57,335 [P3864/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 04:11:57
+ 2016-07-20 08:11:57,362 [P3864/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 08:11:57
+ 2016-07-20 11:30:58,729 [P3864/D2/T63] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username daniel.ellis@royalberkshire.nhs.uk from IP address 62.252.201.238
+ 2016-07-20 11:30:58,745 [P3864/D2/T63] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: daniel.ellis@royalberkshire.nhs.uk logged in from IP address 62.252.201.238
+ 2016-07-20 11:30:59,120 [P3864/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-20 11:30:59,120 [P3864/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-07-20 11:30:59,245 [P3864/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-20 11:30:59,245 [P3864/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-07-20 11:30:59,291 [P3864/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-20 11:30:59,291 [P3864/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-07-20 11:30:59,307 [P3864/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-20 11:30:59,307 [P3864/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-20 11:30:59,323 [P3864/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-20 11:30:59,323 [P3864/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-07-20 11:31:41,042 [P3864/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-07-20 11:31:41,401 [P3864/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-07-20 11:31:41,401 [P3864/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-07-20 11:31:45,620 [P3864/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-07-20 11:31:45,651 [P3864/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-20 12:11:57,390 [P3864/D2/T3] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 12:11:57
+ 2016-07-20 13:30:48,549 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-07-20 13:30:48,549 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-07-20 13:30:48,555 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-07-20 13:30:48,555 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-07-20 13:30:48,555 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-07-20 13:30:48,555 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-07-20 13:30:48,555 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-07-20 13:30:48,576 [P3864/D2/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-07-20 13:30:48,576 [P3864/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-07-20 13:30:48,767 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-07-20 13:30:48,767 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-07-20 13:30:48,767 [P3864/D2/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-07-20 13:31:07,750 [P3864/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-07-20 13:31:07,797 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-20 13:31:07,797 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-07-20 13:31:08,984 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-20 13:31:09,000 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 16ms)
+ 2016-07-20 13:31:10,031 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-20 13:31:10,047 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-07-20 13:31:10,047 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-20 13:31:10,047 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-07-20 13:31:10,062 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-20 13:31:10,062 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-07-20 13:31:10,062 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-20 13:31:10,062 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-07-20 13:31:10,109 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-20 13:31:10,109 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-07-20 13:31:10,109 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-20 13:31:10,109 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-07-20 13:31:16,734 [P3864/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-20 13:31:17,297 [P3864/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-20 13:31:17,312 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-20 13:31:17,328 [P3864/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-07-20 13:31:18,656 [P3864/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-20 13:31:18,672 [P3864/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-20 13:31:18,703 [P3864/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-20 13:31:18,984 [P3864/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-20 13:31:19,000 [P3864/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 12067ms)
+ 2016-07-20 13:31:20,062 [P3864/D3/T39] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.sexualhealth.berkshirehealthcare.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-07-20 13:31:20,750 [P3864/D3/T39] INFO  umbraco.content - Load Xml from file...
+ 2016-07-20 13:31:20,765 [P3864/D3/T39] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-20 13:31:21,578 [P3864/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-20 13:31:21,578 [P3864/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-07-20 13:32:23,984 [P3864/D3/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 13:32:23
+ 2016-07-20 17:00:26,155 [P3864/D3/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-07-20 17:00:26,170 [P3864/D3/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-07-20 17:00:26,733 [P3864/D3/T69] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-20 17:00:26,733 [P3864/D3/T69] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2016-07-20 17:00:26,967 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-20 17:00:26,967 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-07-20 17:00:27,061 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-20 17:00:27,076 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-07-20 17:00:27,092 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-20 17:00:27,092 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-07-20 17:00:27,092 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-20 17:00:27,092 [P3864/D3/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-07-20 17:32:24,002 [P3864/D3/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 17:32:23
+ 2016-07-20 20:35:43,524 [P3864/D3/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-20 20:35:43,617 [P3864/D3/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-20 20:35:43,727 [P3864/D3/T43] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-07-20 21:32:24,030 [P3864/D3/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-19 21:32:24

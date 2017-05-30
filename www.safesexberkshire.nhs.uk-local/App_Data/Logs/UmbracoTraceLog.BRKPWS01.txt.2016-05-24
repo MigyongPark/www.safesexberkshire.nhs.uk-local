@@ -1,0 +1,130 @@
+﻿ 2016-05-24 01:17:17,452 [P3640/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-23 01:17:17
+ 2016-05-24 05:17:13,709 [P3640/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-23 05:17:13
+ 2016-05-24 08:02:57,994 [P3640/D2/T64] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - Failed (at "http://www.sexualhealth.berkshirehealthcare.nhs.uk:80/umbraco").
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.19.27.10:8080
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.<PerformRunAsync>d__5.MoveNext()
+ 2016-05-24 08:03:00,884 [P3640/D2/T73] ERROR Umbraco.Web.Scheduling.KeepAlive - Failed (at "http://www.sexualhealth.berkshirehealthcare.nhs.uk:80/umbraco").
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.19.27.10:8080
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Umbraco.Web.Scheduling.KeepAlive.<PerformRunAsync>d__4.MoveNext()
+ 2016-05-24 09:17:13,721 [P3640/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-23 09:17:13
+ 2016-05-24 09:22:40,034 [P3640/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username daniel.ellis@royalberkshire.nhs.uk from IP address 62.252.201.238
+ 2016-05-24 09:22:40,034 [P3640/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: daniel.ellis@royalberkshire.nhs.uk logged in from IP address 62.252.201.238
+ 2016-05-24 09:22:40,503 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 09:22:40,503 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2016-05-24 09:22:40,769 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-05-24 09:22:40,769 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2016-05-24 09:22:40,816 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-24 09:22:40,816 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-05-24 09:22:40,847 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 09:22:40,847 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-24 09:22:40,847 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-24 09:22:40,847 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-05-24 09:25:28,003 [P3640/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been published.
+ 2016-05-24 09:25:28,191 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-05-24 09:25:28,191 [P3640/D2/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-05-24 09:25:32,597 [P3640/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:25:32,644 [P3640/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 09:33:52,395 [P3640/D2/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 09:33:52,395 [P3640/D2/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-24 09:34:31,989 [P3640/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been published.
+ 2016-05-24 09:34:36,114 [P3640/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:34:36,145 [P3640/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 09:37:46,442 [P3640/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-24 09:37:50,958 [P3640/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:37:51,083 [P3640/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 09:38:21,052 [P3640/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-24 09:38:25,161 [P3640/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:38:25,192 [P3640/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 09:42:17,708 [P3640/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-24 09:42:21,818 [P3640/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:42:21,849 [P3640/D2/T64] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 09:44:41,818 [P3640/D2/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-24 09:44:45,943 [P3640/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:44:45,990 [P3640/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 09:52:38,991 [P3640/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-05-24 09:52:43,100 [P3640/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 09:52:43,147 [P3640/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 10:10:40,972 [P3640/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital' with Id '1210' has been published.
+ 2016-05-24 10:10:45,082 [P3640/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 10:10:45,129 [P3640/D2/T53] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:26:05,653 [P3640/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username daniel.ellis@royalberkshire.nhs.uk from IP address 62.252.201.238
+ 2016-05-24 11:26:05,653 [P3640/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: daniel.ellis@royalberkshire.nhs.uk logged in from IP address 62.252.201.238
+ 2016-05-24 11:26:05,700 [P3640/D2/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 11:26:05,700 [P3640/D2/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-24 11:27:08,872 [P3640/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital' with Id '1210' has been published.
+ 2016-05-24 11:27:13,044 [P3640/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:27:13,075 [P3640/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:28:03,794 [P3640/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-05-24 11:28:07,919 [P3640/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:28:07,966 [P3640/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:29:44,732 [P3640/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-05-24 11:29:48,841 [P3640/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:29:48,872 [P3640/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:29:48,904 [P3640/D2/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-05-24 11:29:48,904 [P3640/D2/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-05-24 11:30:44,732 [P3640/D2/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-24 11:30:48,841 [P3640/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:30:48,872 [P3640/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:30:59,248 [P3640/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-05-24 11:31:03,373 [P3640/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:31:03,404 [P3640/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:32:16,670 [P3640/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-05-24 11:32:20,763 [P3640/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:32:20,810 [P3640/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'West Berkshire Community Hospital' with Id '1210' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whitley Health and Social Services Building' with Id '1212' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic: Upton Hospital' with Id '1206' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic: Skimped Hill Health Centre' with Id '1386' has been published.
+ 2016-05-24 11:33:44,154 [P3640/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic: St Mark's Hospital Community Health Clinic' with Id '1387' has been published.
+ 2016-05-24 11:33:49,060 [P3640/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:33:49,092 [P3640/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:33:56,404 [P3640/D2/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Service Catalogue' with Id '1200' has been published.
+ 2016-05-24 11:34:00,576 [P3640/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:34:00,607 [P3640/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:38:53,780 [P3640/D2/T34] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 11:38:53,780 [P3640/D2/T34] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-24 11:42:53,265 [P3640/D2/T58] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic: St Mark's Hospital Community Health Clinic' with Id '1387' has been published.
+ 2016-05-24 11:42:57,311 [P3640/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic: St Mark's Hospital Community Health Clinic' with Id '1387' has been published.
+ 2016-05-24 11:43:01,421 [P3640/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:43:01,468 [P3640/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:45:51,015 [P3640/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1322' has been published.
+ 2016-05-24 11:45:55,390 [P3640/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:45:55,421 [P3640/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 11:49:26,015 [P3640/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 11:49:26,015 [P3640/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-24 11:50:51,562 [P3640/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1322' has been published.
+ 2016-05-24 11:50:55,922 [P3640/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2016-05-24 11:50:55,984 [P3640/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-24 13:17:13,744 [P3640/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-23 13:17:13
+ 2016-05-24 14:40:04,270 [P3640/D2/T67] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-24 15:25:49,509 [P3640/D2/T61] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-24 15:25:49,588 [P3640/D2/T65] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-24 15:25:49,666 [P3640/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-24 17:17:13,773 [P3640/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-23 17:17:13
+ 2016-05-24 18:26:31,171 [P3640/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 151.229.62.130
+ 2016-05-24 18:26:31,171 [P3640/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 151.229.62.130
+ 2016-05-24 18:26:31,265 [P3640/D2/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 18:26:31,265 [P3640/D2/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-24 18:52:04,456 [P3640/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-24 18:52:04,456 [P3640/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-05-24 21:17:13,785 [P3640/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-23 21:17:13

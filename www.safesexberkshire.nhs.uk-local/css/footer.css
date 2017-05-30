@@ -1,0 +1,251 @@
+/* Footer Styles */
+/*Jason in Atom */
+.rowHighlight {
+	background-color: #3bbfb2;
+	border-radius: 1px;
+	box-shadow: 0px 0px 1px 0px rgba(0, 0 ,0 ,0.2);
+	padding-top: 4px;
+}
+
+.rowHighlight a {
+	margin-top: 5px;
+	color: #f2eddc;
+}
+
+footer a.profBar {
+padding: 5px;
+display:block;
+color: #f2eddc;
+text-decoration: none;
+}
+
+footer a.profBar:hover {
+background-color: #f2eddc !important;
+color: #3bbfb2;
+text-decoration: none;
+}
+
+.local-services footer a.profBar:hover {
+	background-color: #f2eddc;
+	color: #3bbfb2;
+}
+.sexual-health-matters footer a.profBar:hover {
+	background-color: #f2eddc;
+	color: #cd1e3b;
+}
+.sexAndRelationships footer a.profBar:hover {
+	background-color: #f2eddc;
+	color: #e79b52;
+}
+.keepingSafe footer a.profBar:hover {
+	background-color: #f2eddc;
+	color: #3a3a3a;
+}
+.helpAndSupport footer a.profBar:hover {
+	background-color: #f2eddc;
+	color: #f2766b;
+}
+
+footer {
+	font-size: 14px;
+    font-weight: 500;
+	color: #9c9993;
+}
+
+footer div span {
+	float: left;
+	width:  auto;
+	margin: 7px 0 0 ;
+	clear: left;
+}
+
+footer p {
+	margin: 15px 0 15px 0;
+}
+
+.legalStuff{
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.legalStuff a{
+	color: #fff;
+	font-size: 14px;
+}
+
+.legalStuff a:visited {
+	color: #fff;
+
+}
+
+.legalStuff p{
+	text-align: center;
+	margin: 0px 0 7px 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #9c9993;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+footer a:visited {
+	color: #fff;
+}
+
+
+
+.links {
+	margin-top: 10px;
+}
+
+.logo-container {
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    width: 158px;
+    height: 40px;
+}
+
+a svg.wbtm-logo {
+	width: 158px;
+	height: 40px;
+	padding-right: 15px;
+    opacity: 0.6;
+}
+
+a:hover svg.wbtm-logo {
+	width: 158px;
+	height: 40px;
+	padding-right: 15px;
+    opacity: 1;
+}
+
+a.footer-adminBar {
+	display:block;
+}
+
+a.footer-adminBar:hover .icon-header-siren, a.footer-adminBar:hover .icon-header-eye {
+	fill: white;
+}
+
+footer a:hover.footer-adminBar {
+	text-decoration: none;
+	color: #fff;
+	background-color: #cd1e3b;
+}
+
+.ui-emphasize {
+	font-size: 14px;
+	font-weight: 300;
+	height: 30px;
+	border-radius: 13px;
+}
+
+.ui-center {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.ui-admin {
+	height: 30px;
+	display: inline;
+	padding: 0;
+}
+
+.ui-admin li {
+	padding: 0 0;
+	vertical-align: top;
+}
+
+li.ui-item {
+	margin: .3em 0 .3em 0;
+	background-color: #3a3a3a;
+	padding-bottom: 7px;
+	display:block;
+	font-size: 17px;
+}
+
+
+/* ---------------------------------------------------------------------------------------
+										profBar section styles
+--------------------------------------------------------------------------------------- */
+
+.local-services > footer li.ui-item:hover, .home > footer li.ui-item:hover {
+	background-color: #f2eddc;
+}
+
+.local-services > footer li.ui-item:hover a, .local-services > footer li.ui-item:hover a svg.icon-header-siren, .local-services > footer li.ui-item:hover a svg.icon-header-eye,
+.home > footer li.ui-item:hover a, .home > footer li.ui-item:hover a svg.icon-header-siren, .home > footer li.ui-item:hover a svg.icon-header-eye   {
+	background-color: #f2eddc;
+	color: #3bbfb2;
+	fill: #3bbfb2 !important;
+}
+
+.sexual-health-matters > footer li.ui-item:hover {
+	background-color: #f2eddc;
+}
+
+.sexual-health-matters > footer li.ui-item:hover a, .sexual-health-matters > footer li.ui-item:hover a svg.icon-header-siren, .sexual-health-matters > footer li.ui-item:hover a svg.icon-header-eye  {
+	background-color: #f2eddc;
+	color: #cd1e3b;
+	fill: #cd1e3b !important;
+}
+
+.sexAndRelationships > footer li.ui-item:hover {
+	background-color: #f2eddc;
+}
+
+.sexAndRelationships > footer li.ui-item:hover a, .sexAndRelationships > footer li.ui-item:hover a svg.icon-header-siren, .sexAndRelationships > footer li.ui-item:hover a svg.icon-header-eye  {
+	background-color: #f2eddc;
+	color: #e79b52;
+	fill: #e79b52 !important;
+}
+
+.keepingSafe > footer li.ui-item:hover {
+	background-color: #f2eddc;
+}
+
+.keepingSafe > footer li.ui-item:hover a, .keepingSafe > footer li.ui-item:hover a svg.icon-header-siren, .keepingSafe > footer li.ui-item:hover a svg.icon-header-eye  {
+	background-color: #f2eddc;
+	color: #f2766b;
+	fill: #f2766b !important;
+}
+
+.helpAndSupport > footer li.ui-item:hover {
+	background-color: #f2eddc;
+}
+
+.helpAndSupport > footer li.ui-item:hover a, .helpAndSupport > footer li.ui-item:hover a svg.icon-header-siren, .helpAndSupport > footer  li.ui-item:hover a svg.icon-header-eye  {
+	background-color: #f2eddc;
+	color: #3a3a3a;
+	fill: #3a3a3a !important;
+}
+
+/* ---------------------------------------------------------------------------------------
+									End profBar section styles
+--------------------------------------------------------------------------------------- */
+
+
+.footer-adminBar .ui-admin {
+	text-align: center;
+	/*vertical-align: middle;*/
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.dpio-logo {
+	margin-top: 1.5em;
+}
+
+/*@media (min-width: 320px) {
+
+}*/
+
+/*##################*/

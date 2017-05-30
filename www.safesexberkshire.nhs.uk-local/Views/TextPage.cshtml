@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+<div class="row container padding margin">
+	<div class="col-xs-12 no-padding margin">
+		@{ Html.RenderPartial("Breadcrumbs"); }
+		<h1>@Umbraco.Field("pageName")</h1>
+	</div>
+</div>
+
+<div class="row no-padding margin">
+	<div class="col-xs-12 padding margin">
+		@Umbraco.Field("bodyText")
+	</div>
+</div>

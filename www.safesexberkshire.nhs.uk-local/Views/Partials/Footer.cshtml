@@ -1,0 +1,139 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+	string sectionName = "";
+	int cpaos = CurrentPage.AncestorOrSelf(2).Id;
+}
+
+@switch (cpaos) {
+  case 1119:
+		sectionName = "local-services";
+		break;
+	case 1120:
+		sectionName = "sexual-health-matters";
+		break;
+	case 1122:
+		sectionName = "sexAndRelationships";
+		break;
+	case 1123:
+		sectionName = "keepingSafe";
+		break;
+	case 1125:
+		sectionName = "helpAndSupport";
+		break;
+   default:
+      sectionName = "home";
+      break;
+}
+
+<footer>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12" id="nojs-map">
+
+            </div>
+        </div>
+
+		<div class="row">
+
+      <div class="col-xs-12 ui-center">
+					<a class="profBar @sectionName" href="/professionals/">Professionals</a>
+			</div>
+
+
+
+    <div class="col-xs-6 col-lg-6">
+      <div class="ui-center">
+        <ul class="ui-admin">
+          <li class="ui-item"><a class="footer-adminBar" href="/help-support/emergency"><svg class="icon-header-siren"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-siren"></use></svg>Emergency</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-lg-6">
+      <div class="ui-center">
+        <ul class="ui-admin">
+          <li class="ui-item"><a class="footer-adminBar" href="http://www.google.co.uk/"><svg class="icon-header-eye"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-eye-crossed"></use></svg>Hide</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+        <div class="row links">
+            <!-- <div class="col-xs-6 col-lg-3 ui-center">
+                  <a href="/accessibility/">Accessibility</a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3 ui-center">
+                  <a href="/confidentiality/">Confidentiality</a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3 ui-center">
+                  <a href="/cookies/">Cookies</a>
+            </div>
+
+            <div class="col-xs-6 col-lg-3 ui-center">
+                  <a href="/site-map/">Site Map</a>
+            </div> -->
+				<div class="col-xs-12 col-sm-6 text-align-center">
+
+					<div class="col-xs-12 col-sm-6 ui-center col-sm-push-3">
+							<a href="/accessibility/">Accessibility</a>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 ui-center col-sm-push-3">
+							<a href="/confidentiality/">Confidentiality</a>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 ui-center col-sm-push-3">
+							<a href="/cookies/">Cookies</a>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 ui-center col-sm-push-3">
+							<a href="/site-map/">Site Map</a>
+					</div>
+
+				</div>
+
+
+				<div class="col-xs-12 col-sm-6 text-align-center">
+					<a href="/sexual-health-matters/order-chlamydia-test-kit/"><img class="dontpassLogoOrig" src="/Images/dpio logo@0,5x.png" alt="don't pass it on logo" /></a>
+					<!-- <img src="/Images/dpio_logo_black@0,5x.png" class="dontpassLogo" alt="don't pass it on logo" /> -->
+				</div>
+
+				<div class="col-xs-12 col-sm-6 text-align-center">
+					<a href="/sexual-health-matters/order-hiv-test-kit/"><img class="testLogo" src="/Images/testhiv_logo.png" alt="test hiv logo" /></a>
+					<!-- <img src="/Images/dpio_logo_black@0,5x.png" class="dontpassLogo" alt="don't pass it on logo" /> -->
+				</div>
+
+      </div>
+
+
+            <div class="row">
+              <div class="col-xs-6 col-xs-push-  col-lg-4 ui-center legalStuff adminHide">
+                     <a href="https://www.surveymonkey.co.uk/r/LQL3PD2" target="_blank">Site Feedback</a> | <a href="https://www.safesexberkshire.nhs.uk/umbraco/" target="_blank">Admin</a>
+              </div>
+
+
+
+              <div class="col-xs-6 col-lg-push-4 col-lg-4 ui-center legalStuff adminHide">
+                <a href="http://webteam.berkshire.nhs.uk" target="_blank">Web Development by WebTeam</a>
+              </div>
+
+				  <div class="col-xs-12 col-lg-pull-4 col-lg-4 ui-center legalStuff">
+					 <p>
+					   Copyright &copy; @DateTime.Now.Year @CurrentPage._orgName
+					 </p>
+				  </div>
+
+				<div class="col-xs-12 legalStuff">
+					<a href="/home"><img id="nhsLogoFtr" class="" src="/images/nhs-logo-bsh.png" alt="NHS Logo"></a>
+				</div>
+
+
+			</div>
+
+		</div>
+</footer>

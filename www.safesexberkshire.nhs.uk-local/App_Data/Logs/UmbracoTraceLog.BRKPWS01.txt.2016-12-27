@@ -1,0 +1,46 @@
+﻿ 2016-12-27 01:30:22,122 [P4360/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-26 01:30:22
+ 2016-12-27 05:30:22,135 [P4360/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-26 05:30:22
+ 2016-12-27 09:30:19,912 [P4360/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-26 09:30:19
+ 2016-12-27 13:30:20,050 [P4360/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-26 13:30:20
+ 2016-12-27 15:37:57,658 [P4360/D2/T39] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username daniel.ellis@royalberkshire.nhs.uk from IP address 81.151.155.179
+ 2016-12-27 15:37:57,658 [P4360/D2/T39] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Daniel.ellis@royalberkshire.nhs.uk logged in from IP address 81.151.155.179
+ 2016-12-27 15:37:57,955 [P4360/D2/T47] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-12-27 15:37:57,955 [P4360/D2/T47] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-12-27 15:37:58,065 [P4360/D2/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-12-27 15:37:58,065 [P4360/D2/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-12-27 15:37:58,127 [P4360/D2/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-12-27 15:37:58,127 [P4360/D2/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-12-27 15:37:58,143 [P4360/D2/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-12-27 15:39:25,409 [P4360/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Information Leaflets' with Id '1426' has been published.
+ 2016-12-27 15:39:25,518 [P4360/D2/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-12-27 15:39:25,518 [P4360/D2/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-12-27 15:39:29,721 [P4360/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-12-27 15:39:29,737 [P4360/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2016-12-27 15:41:04,362 [P4360/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Information Leaflets' with Id '1426' has been published.
+ 2016-12-27 15:41:08,440 [P4360/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-12-27 15:41:08,456 [P4360/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-12-27 15:48:50,707 [P4360/D2/T11] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:48:50,707 [P4360/D2/T11] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:48:50,707 [P4360/D2/T11] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:48:50,707 [P4360/D2/T11] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:48:50,707 [P4360/D2/T11] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-12-27 15:49:28,738 [P4360/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Information Leaflets' with Id '1426' has been published.
+ 2016-12-27 15:49:33,535 [P4360/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-12-27 15:49:33,550 [P4360/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2016-12-27 15:50:46,301 [P4360/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Information Leaflets' with Id '1426' has been published.
+ 2016-12-27 15:50:50,379 [P4360/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-12-27 15:50:50,394 [P4360/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2016-12-27 15:59:20,927 [P4360/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-12-27 15:59:20,927 [P4360/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-12-27 15:59:20,989 [P4360/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-12-27 15:59:20,989 [P4360/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2016-12-27 17:30:20,062 [P4360/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-26 17:30:20
+ 2016-12-27 21:30:20,075 [P4360/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-26 21:30:20

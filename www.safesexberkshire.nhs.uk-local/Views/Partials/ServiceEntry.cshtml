@@ -1,0 +1,57 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+<div class="row">
+  <div class="col-xs-12">
+    <h1>@Model.Content.Name</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-md-4">
+    <p>@Umbraco.Field("addressLine1")<br>
+      @if (@CurrentPage.addressLine2 != null && @CurrentPage.addressLine2 != "") {
+        @Umbraco.Field("addressLine2")<br>
+      }
+      @Umbraco.Field("citytown")<br>
+      @Umbraco.Field("postcode")<br>
+    </p>
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <iframe width="400" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=@Umbraco.Field("postcode")&key=AIzaSyDAMTXKfnKy7RiKhoRO26BO_n6tdPQN9kM" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h2>How Is The Service Provided</h2>
+
+    <p>@Umbraco.Field("howIsTheServiceProvided")</p>
+
+    <h2>Opening Times</h2>
+
+    <p>@Umbraco.Field("openingTimes")</p>
+
+    <h2>Who Is Eligible For This Service</h2>
+
+    <p>@Umbraco.Field("whoIsEligibleForThisService")</p>
+
+    <h2>What Will Happen At Your Appointment</h2>
+
+    <p>@Umbraco.Field("whatWillHappenAtYourAppointment")</p>
+
+    <h2>Useful Information For Patients</h2>
+
+    <p>@Umbraco.Field("usefulInformationForPatients")</p>
+
+    <h2>Making A Referral</h2>
+
+    <p>@Umbraco.Field("makingAReferral")</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+      <h2>Contact Information</h2>
+    </div>
+</div>

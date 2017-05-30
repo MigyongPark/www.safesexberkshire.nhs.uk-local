@@ -1,0 +1,14 @@
+{
+  "id": "a43d2de0-3f77-4049-9df1-bccb9c812448",
+  "name": "Send email to webteam@berkshire.nhs.uk",
+  "form": "8221be8f-9d9f-4ab5-b9a4-ad7e45f96715",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "webteam@berkshire.nhs.uk",
+    "Subject": "The Form 'Slough Condom Distribution' was submitted",
+    "Message": "The Form 'Slough Condom Distribution' was submitted, this is the list of values it contained. You can turn this email off under workflows in Umbraco Forms."
+  },
+  "sortOrder": 0
+}

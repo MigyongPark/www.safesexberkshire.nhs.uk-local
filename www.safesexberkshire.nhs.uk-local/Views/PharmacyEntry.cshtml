@@ -1,0 +1,59 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+
+    var azithromycinState = @Model.Content.GetPropertyValue("azithromycin");
+
+}
+
+
+<div class="row margin">
+	<div class="col-xs-12">
+	@{ Html.RenderPartial("PharmacyBreadcrumb"); }
+    <h1>@Umbraco.Field("pharmacyName")</h1>
+  </div>
+</div>
+
+<div class="row margin">
+	<div class="col-xs-12 col-md-4">
+    <p>@Umbraco.Field("addressLine1")<br>
+      @if (@CurrentPage.addressLine2 != null && @CurrentPage.addressLine2 != "") {
+        @Umbraco.Field("addressLine2")<br>
+      }
+      @Umbraco.Field("citytown")<br>
+      @Umbraco.Field("postcode")<br>
+    </p>
+
+    @if (@CurrentPage.telephone != null && @CurrentPage.telephone != "") {
+      <p>Phone: @Umbraco.Field("telephone")</p>
+    }
+
+    @if (@CurrentPage.fax != null && @CurrentPage.fax != "") {
+      <p>Fax: @Umbraco.Field("fax")</p>
+    }
+
+  </div>
+  <div class="col-xs-12 col-md-8" style="text-align: center;">
+    <iframe width="100%" height="300" frameborder="0" style="border: 1px solid #d9d1b9; padding: 1px;" src="https://www.google.com/maps/embed/v1/place?q=@Umbraco.Field("postcode")&key=AIzaSyDAMTXKfnKy7RiKhoRO26BO_n6tdPQN9kM" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="row margin">
+  <div class="col-xs-12">
+
+    @if (@CurrentPage.openingTimes != null && @CurrentPage.openingTimes != "") {
+      <h2>Usual Opening Times</h2>
+      <p>@Umbraco.Field("openingTimes")</p>
+    }
+
+    @if (@CurrentPage.GetPropertyValue<string>("azithromycin") == "True") {
+      <h2>Azithromycin (chlamydia treatment)</h2>
+      <p>We provide Azithromycin free, for treatment of a chlamydia infection on receipt of notification of a positive test result to young people aged 15-24 years.</p>
+    }
+
+    @if (@CurrentPage.GetPropertyValue<string>("ehcContract") == "True") {
+      <h2>EHC (morning after pill)</h2>
+      <p>We provide EHC free to young people aged 13-19 years.</p>
+    }
+
+  </div>
+</div>

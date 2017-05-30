@@ -1,0 +1,75 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+	var homePage = CurrentPage.Site();
+	var results = homePage.Descendants("PanelItem").OrderBy("panelType desc");
+	var itemCount = 0;
+	var colSizes = "";
+	var tempVar = "";
+	var liOpeningTag = "<li>";
+	var panelClass = "";
+	var areaName = "";
+	var areaIcon = "";
+	var filterTxt = "";
+}
+
+<div class="contentPromoPanels" name="filteredResults">
+	<div class="grid row">
+		<div class="grid-sizer"></div>
+
+		@* this sets required css classes & correct icon *@
+		@foreach (var panelItem in results)
+		{
+				if (panelItem.HasValue("linkToContent")) {
+					var node = Umbraco.Content(panelItem.linkToContent);
+
+					int panelAncestor = node.AncestorOrSelf(2).Id;
+
+					switch (panelAncestor) {
+					  case 1119:
+							areaName = "local-services";
+							areaIcon = "#illu-localService";
+							break;
+						case 1120:
+							areaName = "sexual-health-matters";
+							areaIcon = "#illu-sexualHealthMatters";
+							break;
+						case 1122:
+							areaName = "sexAndRelationships";
+							areaIcon = "#illu-youSexAndRelations";
+							break;
+						case 1123:
+							areaName = "keepingSafe";
+							areaIcon = "#illu-keepingSafe";
+							break;
+						case 1125:
+							areaName = "helpAndSupport";
+							areaIcon = "#illu-keepingSafe";
+							break;
+					}
+				}
+
+			itemCount += 1;
+			panelClass = "panel" + itemCount.ToString();
+
+			filterTxt = @panelItem.relatedContent.ToLower().Replace(',', ' ');
+
+			<div class="grid-item contentPromoPanel @areaName panel2 @panelItem.panelType @filterTxt">
+			@{
+				if (panelItem.HasValue("linkToContent")) {
+					var node = Umbraco.Content(panelItem.linkToContent);
+				<div class="row">
+					<div class="col-xs-3 col-md-2"><svg class="icon" style="width:60px; height: 60px;"><use xlink:href="@areaIcon"></use></svg></div>
+					<div class="col-xs-9 col-md-10"><h2><a href="@node.Url">@panelItem.name</a></h2> </div>
+				</div>
+					@*<div class="col-xs-12"><h2><svg class="icon" style="width:60px; height: 60px;"><use xlink:href="@areaIcon"></use></svg> <a href="@node.Url">@panelItem.name</a></h2>  </div>*@
+				} else {
+					<h2>@panelItem.Name</h2>
+				}
+			}
+			@panelItem.itemText
+			</div>
+		}
+
+	</div>
+</div>

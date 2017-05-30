@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@if (CurrentPage.HasValue("introText"))
+{
+	var thisPage = @CurrentPage;
+
+	<div id="slide">
+		<span class="closeIcon slide_close">X</span>
+			<div class="row" id="introTxtBg">
+				<div class="col-xs-12 intro"><img alt="Health Check Icon" class="health" src="/images/health-check-icon.png">
+					<h1>@Umbraco.Field("newsTitle")</h1>
+					@Umbraco.Field("introText")
+				</div>
+			</div>
+	</div>
+
+}
+
+
+@*
+@foreach (var item in thisPage.newsLink)
+{
+ var linkUrl = (bool)item.isInternal ? Umbraco.NiceUrl(item.Value<int>("internal")) : item.link;
+ var linkTarget = (bool)item.newWindow ? "_blank" : null;
+ <li class="sign"><a href="@linkUrl" target="@linkTarget">@item.caption <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg><span class="arrow"></span></a> </li>
+}
+*@

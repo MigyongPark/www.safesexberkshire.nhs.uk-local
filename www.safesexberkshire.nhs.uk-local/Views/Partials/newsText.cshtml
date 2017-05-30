@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@if (CurrentPage.HasValue("introText"))
+{
+	var thisPage = @CurrentPage;
+	var newsBody = thisPage.GetPropertyValue("introText".ToString());
+	<div id="slide">
+		<span class="closeIcon slide_close">X</span>
+			<div class="row" id="introTxtBg">
+				<div class="col-xs-12 intro"><img alt="Health Check Icon" class="health" src="/images/health-check-icon.png" alt="Healthcheck Icon"/>
+						@if (CurrentPage.HasValue("newsLink")){
+					    var node  = Umbraco.Content(CurrentPage.newsLink);
+					    <h1><a href="@node.Url">@node.Name</a></h1>
+					  } else {
+							<h1>@Umbraco.Field("newsTitle")</h1>
+						}
+						@Truncate(newsBody, 60)
+				</div>
+			</div>
+	</div>
+
+}
+
+@helper Truncate(string input, int length)
+{
+  if (input.Length <= length) {
+          @Html.Raw(input)
+  }
+  else {
+          @Html.Raw(input.Substring(0, length))<text>...</text>
+  }
+}
+@*
+@foreach (var item in thisPage.newsLink)
+{
+ var linkUrl = (bool)item.isInternal ? Umbraco.NiceUrl(item.Value<int>("internal")) : item.link;
+ var linkTarget = (bool)item.newWindow ? "_blank" : null;
+ <li class="sign"><a href="@linkUrl" target="@linkTarget">@item.caption <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg><span class="arrow"></span></a> </li>
+}
+*@

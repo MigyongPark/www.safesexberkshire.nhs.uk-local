@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	var home = @CurrentPage.Site();
+	var panelsLocation = "";
+}
+
+<div class="col-xs-12 col-lg-4" id="signposts">
+	<div class="row">
+			<div class="col-xs-8 col-lg-9">
+				<h1 class="heading">Signposts</h1>
+			</div>
+			<div class="col-xs-4 col-lg-3">
+				<svg class="icon icon-road-sign">
+					<use xlink:href="#icon-road-sign"></use>
+				</svg>
+			</div>
+	</div>
+	<div class="row panelContent @panelsLocation">
+		<ul class="col-xs-12 signpost">
+	    @foreach (var item in home.signPosts)
+	    {
+	     var linkUrl = (bool)item.isInternal ? Umbraco.NiceUrl(item.Value<int>("internal")) : item.link;
+	     var linkTarget = (bool)item.newWindow ? "_blank" : null;
+	     <li class="sign">
+				 <a href="@linkUrl" target="@linkTarget">@item.caption
+				 <!-- <svg class="icon icon-chevron-right"><use xlink:href="#icon-chevron-right"></use></svg> -->
+				 <span class="arrow"></span>
+				 </a>
+			 </li>
+	    }
+	  </ul>
+	</div>
+</div>

@@ -1,0 +1,171 @@
+﻿ 2016-05-16 01:48:41,709 [P5900/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 01:48:41
+ 2016-05-16 05:48:41,722 [P5900/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 05:48:41
+ 2016-05-16 06:36:09,649 [P5900/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 09:05:02,041 [P5900/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-05-16 09:05:02,041 [P5900/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-05-16 09:05:02,338 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-16 09:05:02,338 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-05-16 09:05:02,995 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-05-16 09:05:03,010 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-05-16 09:05:03,120 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-16 09:05:03,120 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2016-05-16 09:05:03,166 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-16 09:05:03,166 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-16 09:05:03,166 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-16 09:05:03,166 [P5900/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-05-16 09:48:41,750 [P5900/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 09:48:41
+ 2016-05-16 11:09:28,540 [P5900/D2/T85] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 11:11:25,353 [P5900/D2/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 11:18:32,745 [P5900/D2/T85] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 11:29:33,793 [P5900/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-05-16 11:29:33,793 [P5900/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-05-16 11:29:33,840 [P5900/D2/T113] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-16 11:29:33,840 [P5900/D2/T113] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-16 11:32:32,153 [P5900/D2/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-05-16 11:32:32,153 [P5900/D2/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-05-16 12:05:35,625 [P5900/D2/T113] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:12:55,126 [P5900/D2/T95] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-05-16 12:12:55,126 [P5900/D2/T95] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-05-16 12:12:55,236 [P5900/D2/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-16 12:12:55,236 [P5900/D2/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-16 12:17:02,720 [P5900/D2/T56] INFO  umbraco.content - Loading content from database...
+ 2016-05-16 12:17:07,470 [P5900/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 12:17:07,564 [P5900/D2/T101] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 12:19:05,424 [P5900/D2/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:19:11,002 [P5900/D2/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:19:15,158 [P5900/D2/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:22:29,346 [P5900/D2/T103] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.160
+ 2016-05-16 12:22:29,346 [P5900/D2/T103] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.160
+ 2016-05-16 12:23:14,237 [P5900/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergency' with Id '1238' has been published.
+ 2016-05-16 12:23:18,955 [P5900/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 12:23:18,987 [P5900/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 12:25:17,768 [P5900/D2/T85] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:25:36,690 [P5900/D2/T77] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:34:01,847 [P5900/D2/T60] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-16 12:34:01,847 [P5900/D2/T60] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-16 12:34:10,800 [P5900/D2/T36] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:34:44,707 [P5900/D2/T99] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:42:33,583 [P5900/D2/T52] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-05-16 12:44:05,114 [P5900/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Garden Clinic' with Id '1323' has been published.
+ 2016-05-16 12:44:09,348 [P5900/D2/T103] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 12:44:09,395 [P5900/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 12:45:34,520 [P5900/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-16 12:45:34,520 [P5900/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-16 13:18:01,556 [P5900/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Service Catalogue' with Id '1200' has been unpublished.
+ 2016-05-16 13:18:05,634 [P5900/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:18:05,665 [P5900/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:18:06,852 [P5900/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Service Catalogue' with Id '1200' has been published.
+ 2016-05-16 13:18:12,056 [P5900/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:18:12,087 [P5900/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:18:26,149 [P5900/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been unpublished.
+ 2016-05-16 13:18:30,212 [P5900/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:18:30,274 [P5900/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:18:30,493 [P5900/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:18:34,806 [P5900/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:18:34,821 [P5900/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:20:22,556 [P5900/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been unpublished.
+ 2016-05-16 13:20:22,806 [P5900/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been unpublished.
+ 2016-05-16 13:20:23,009 [P5900/D2/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been unpublished.
+ 2016-05-16 13:20:27,056 [P5900/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:20:27,087 [P5900/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:20:44,181 [P5900/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:20:48,368 [P5900/D2/T23] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:20:48,431 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:21:28,822 [P5900/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-05-16 13:21:29,228 [P5900/D2/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been published.
+ 2016-05-16 13:21:33,400 [P5900/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:21:33,447 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:21:39,353 [P5900/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been unpublished.
+ 2016-05-16 13:21:43,478 [P5900/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:21:43,509 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:21:50,118 [P5900/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reading Adviza' with Id '1207' has been published.
+ 2016-05-16 13:21:53,150 [P5900/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been unpublished.
+ 2016-05-16 13:21:57,197 [P5900/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:21:57,228 [P5900/D2/T112] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:23:17,041 [P5900/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Florey Clinic' with Id '1209' has been published.
+ 2016-05-16 13:23:21,166 [P5900/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:23:21,197 [P5900/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:24:30,556 [P5900/D2/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-05-16 13:24:34,681 [P5900/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:24:34,963 [P5900/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:24:40,541 [P5900/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-05-16 13:24:44,634 [P5900/D2/T109] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:24:44,666 [P5900/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:24:50,228 [P5900/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Woodley Centre Surgery' with Id '1213' has been published.
+ 2016-05-16 13:24:54,447 [P5900/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:24:54,478 [P5900/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:48:41,778 [P5900/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 13:48:41
+ 2016-05-16 13:55:51,107 [P5900/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:55:55,232 [P5900/D2/T109] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:55:55,263 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:56:05,091 [P5900/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:56:09,420 [P5900/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:56:09,451 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:56:11,216 [P5900/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:56:15,310 [P5900/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:56:15,341 [P5900/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:56:23,326 [P5900/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:56:27,451 [P5900/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:56:27,482 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:56:28,357 [P5900/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:56:32,466 [P5900/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:56:32,498 [P5900/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 13:56:32,607 [P5900/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wokingham Hospital' with Id '1201' has been published.
+ 2016-05-16 13:56:36,732 [P5900/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2016-05-16 13:56:36,763 [P5900/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-16 14:47:35,566 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-05-16 14:47:35,566 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-05-16 14:47:35,566 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-05-16 14:47:35,566 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-05-16 14:47:35,597 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-05-16 14:47:35,597 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-05-16 14:47:35,597 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-05-16 14:47:35,597 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-05-16 14:47:35,597 [P5900/D2/T107] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-05-16 14:47:35,597 [P5900/D2/T28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-05-16 14:47:35,597 [P5900/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-05-16 14:47:35,597 [P5900/D2/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-05-16 14:48:05,660 [P5900/D2/T7] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-05-16 15:00:38,612 [P7764/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-05-16 15:00:38,659 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-05-16 15:00:38,674 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-05-16 15:00:38,924 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-05-16 15:00:38,955 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 22ms)
+ 2016-05-16 15:00:38,987 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-05-16 15:00:38,987 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-05-16 15:00:38,987 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-05-16 15:00:39,002 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-05-16 15:00:39,034 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-05-16 15:00:39,034 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-05-16 15:00:39,034 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-05-16 15:00:39,034 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-05-16 15:00:39,096 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-05-16 15:00:39,096 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-05-16 15:00:39,096 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-05-16 15:00:39,096 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-05-16 15:00:40,268 [P7764/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-16 15:00:40,580 [P7764/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-16 15:00:40,596 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-05-16 15:00:40,596 [P7764/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-05-16 15:00:41,362 [P7764/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-16 15:00:41,393 [P7764/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-05-16 15:00:41,409 [P7764/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-05-16 15:00:41,518 [P7764/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-05-16 15:00:41,534 [P7764/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3124ms)
+ 2016-05-16 15:00:42,221 [P7764/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.safesexberkshire.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-05-16 15:00:42,487 [P7764/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-05-16 15:00:42,487 [P7764/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-05-16 15:00:43,299 [P7764/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-05-16 15:00:43,299 [P7764/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-05-16 15:01:45,315 [P7764/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 15:01:45
+ 2016-05-16 19:01:45,343 [P7764/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 19:01:45
+ 2016-05-16 23:01:45,371 [P7764/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-15 23:01:45
+ 2016-05-16 23:03:05,606 [P7764/D2/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

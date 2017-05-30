@@ -1,0 +1,209 @@
+﻿ 2016-03-21 01:22:45,643 [P5600/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-20 01:22:45
+ 2016-03-21 02:21:40,540 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-03-21 02:21:40,540 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-03-21 02:21:40,540 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-03-21 02:21:40,540 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-03-21 02:21:40,540 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-03-21 02:21:40,540 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-03-21 02:21:40,712 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-03-21 02:21:40,712 [P5600/D2/T112] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-03-21 02:21:40,712 [P5600/D2/T128] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-03-21 02:21:40,712 [P5600/D2/T123] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-03-21 02:21:40,712 [P5600/D2/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-03-21 02:21:40,712 [P5600/D2/T8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-03-21 02:22:10,775 [P5600/D2/T8] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-03-21 08:50:13,695 [P1988/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-03-21 08:50:13,742 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-03-21 08:50:13,742 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-03-21 08:50:13,977 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-03-21 08:50:13,992 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 21ms)
+ 2016-03-21 08:50:14,039 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-03-21 08:50:14,039 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-03-21 08:50:14,039 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-03-21 08:50:14,039 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-03-21 08:50:14,086 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-03-21 08:50:14,086 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-03-21 08:50:14,086 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-03-21 08:50:14,086 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-03-21 08:50:14,133 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-03-21 08:50:14,133 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-03-21 08:50:14,133 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-03-21 08:50:14,133 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-03-21 08:50:15,305 [P1988/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-21 08:50:15,758 [P1988/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-21 08:50:15,758 [P1988/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-21 08:50:15,773 [P1988/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will rebuild its caches and indexes and then adjust it's last synced id to the latest found in the database and will start maintaining cache updates based on that id
+ 2016-03-21 08:50:15,820 [P1988/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2016-03-21 08:50:15,820 [P1988/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2016-03-21 08:50:15,836 [P1988/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2016-03-21 08:50:17,602 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-03-21 08:50:17,602 [P1988/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2016-03-21 08:50:18,445 [P1988/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-03-21 08:50:18,477 [P1988/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-03-21 08:50:18,477 [P1988/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-03-21 08:50:18,508 [P1988/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5040ms)
+ 2016-03-21 08:50:19,789 [P1988/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.safesexberkshire.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-03-21 08:50:20,836 [P1988/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-03-21 08:50:20,883 [P1988/D2/T3] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-21 08:59:29,915 [P1988/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-03-21 08:59:29,915 [P1988/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-03-21 09:00:31,618 [P1988/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-20 09:00:31
+ 2016-03-21 11:44:38,388 [P1988/D2/T54] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username webteam@berkshire.nhs.uk from IP address 62.252.63.157
+ 2016-03-21 11:44:38,388 [P1988/D2/T54] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: webteam@berkshire.nhs.uk logged in from IP address 62.252.63.157
+ 2016-03-21 11:44:38,763 [P1988/D2/T54] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-21 11:44:38,763 [P1988/D2/T54] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-03-21 11:44:38,903 [P1988/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-03-21 11:44:38,903 [P1988/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-03-21 11:44:39,231 [P1988/D2/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-21 11:44:39,231 [P1988/D2/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-21 11:44:39,231 [P1988/D2/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-21 11:44:39,231 [P1988/D2/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-21 11:44:39,403 [P1988/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-21 11:44:39,403 [P1988/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-21 11:45:05,731 [P1988/D2/T13] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 23.100.15.180:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2016-03-21 11:45:40,825 [P1988/D2/T20] ERROR Umbraco.Web.PropertyEditors.RteEmbedController - Error embedding url https://www.youtube.com/watch?v=WQd4Ur7LKmM - width: 360 height: 240
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 216.58.198.110:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.DownloadResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.GetXmlResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.OEmbedVideo.GetMarkup(String url, Int32 maxWidth, Int32 maxHeight)
+   at Umbraco.Web.PropertyEditors.RteEmbedController.GetEmbed(String url, Int32 width, Int32 height)
+ 2016-03-21 11:46:05,200 [P1988/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get Tested' with Id '1283' has been published.
+ 2016-03-21 11:46:05,341 [P1988/D2/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-03-21 11:46:05,341 [P1988/D2/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-03-21 11:46:09,513 [P1988/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-03-21 11:46:09,544 [P1988/D2/T3] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-21 11:47:21,216 [P1988/D2/T42] ERROR Umbraco.Web.PropertyEditors.RteEmbedController - Error embedding url https://www.youtube.com/watch?v=WQd4Ur7LKmM - width: 360 height: 240
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 216.58.198.110:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.DownloadResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.GetXmlResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.OEmbedVideo.GetMarkup(String url, Int32 maxWidth, Int32 maxHeight)
+   at Umbraco.Web.PropertyEditors.RteEmbedController.GetEmbed(String url, Int32 width, Int32 height)
+ 2016-03-21 11:53:21,607 [P1988/D2/T13] ERROR Umbraco.Web.PropertyEditors.RteEmbedController - Error embedding url https://youtu.be/WQd4Ur7LKmM - width: 360 height: 240
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 216.58.198.110:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.DownloadResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.AbstractOEmbedProvider.GetXmlResponse(String url)
+   at Umbraco.Web.Media.EmbedProviders.OEmbedVideo.GetMarkup(String url, Int32 maxWidth, Int32 maxHeight)
+   at Umbraco.Web.PropertyEditors.RteEmbedController.GetEmbed(String url, Int32 width, Int32 height)
+ 2016-03-21 13:00:31,631 [P1988/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-20 13:00:31
+ 2016-03-21 14:03:11,216 [P1988/D2/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-03-21 14:48:10,456 [P1988/D2/T20] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 23.100.15.180:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2016-03-21 14:48:12,409 [P1988/D2/T42] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-03-21 14:48:12,409 [P1988/D2/T42] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-03-21 15:19:33,616 [P1988/D2/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-03-21 15:19:33,694 [P1988/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-03-21 15:19:33,694 [P1988/D2/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-03-21 15:19:33,694 [P1988/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-03-21 15:19:33,694 [P1988/D2/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-03-21 15:19:52,460 [P1988/D3/T39] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2016-03-21 15:19:52,507 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-03-21 15:19:52,522 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2016-03-21 15:19:52,725 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-03-21 15:19:52,741 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 20ms)
+ 2016-03-21 15:19:52,788 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-03-21 15:19:52,788 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-03-21 15:19:52,788 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-03-21 15:19:52,788 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-03-21 15:19:52,804 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-03-21 15:19:52,804 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-03-21 15:19:52,804 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-03-21 15:19:52,819 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 2ms)
+ 2016-03-21 15:19:52,913 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-03-21 15:19:52,913 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-03-21 15:19:52,913 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-03-21 15:19:52,913 [P1988/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-03-21 15:19:53,913 [P1988/D3/T39] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-21 15:19:54,194 [P1988/D3/T39] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-21 15:19:54,194 [P1988/D3/T39] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-03-21 15:19:54,225 [P1988/D3/T39] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-03-21 15:19:54,257 [P1988/D3/T39] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-03-21 15:19:54,350 [P1988/D3/T39] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-03-21 15:19:54,366 [P1988/D3/T39] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2149ms)
+ 2016-03-21 15:19:55,038 [P1988/D3/T37] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://safesexberkshire.nhs.uk:80/umbraco (UmbracoModule request)
+ 2016-03-21 15:19:56,897 [P1988/D3/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-03-21 15:19:56,913 [P1988/D3/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-03-21 15:19:57,116 [P1988/D3/T56] INFO  umbraco.content - Load Xml from file...
+ 2016-03-21 15:19:57,116 [P1988/D3/T56] INFO  umbraco.content - Loaded Xml from file.
+ 2016-03-21 15:19:57,132 [P1988/D3/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-03-21 15:19:57,147 [P1988/D3/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-03-21 15:19:59,866 [P1988/D3/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-21 15:19:59,866 [P1988/D3/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-03-21 15:19:59,944 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-21 15:19:59,944 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-03-21 15:19:59,960 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-03-21 15:19:59,960 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-03-21 15:19:59,960 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-03-21 15:19:59,960 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-03-21 15:19:59,991 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-03-21 15:19:59,991 [P1988/D3/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-03-21 15:20:03,772 [P1988/D2/T54] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2016-03-21 15:20:58,257 [P1988/D3/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-20 15:20:58
+ 2016-03-21 15:21:35,116 [P1988/D3/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get Tested' with Id '1283' has been published.
+ 2016-03-21 15:21:35,241 [P1988/D3/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-03-21 15:21:35,241 [P1988/D3/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-03-21 15:21:40,101 [P1988/D3/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-03-21 15:21:40,148 [P1988/D3/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-03-21 16:37:37,156 [P1988/D3/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-03-21 19:20:58,269 [P1988/D3/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-20 19:20:58
+ 2016-03-21 23:20:58,282 [P1988/D3/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-03-20 23:20:58

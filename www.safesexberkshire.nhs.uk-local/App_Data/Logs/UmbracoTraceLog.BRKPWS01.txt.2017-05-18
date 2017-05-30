@@ -1,0 +1,12 @@
+﻿ 2017-05-18 00:36:38,226 [P13792/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-17 00:36:38
+ 2017-05-18 03:03:25,493 [P13792/D2/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-05-18 03:03:25,493 [P13792/D2/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2017-05-18 03:03:25,540 [P13792/D2/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2017-05-18 03:03:25,540 [P13792/D2/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2017-05-18 03:34:03,747 [P13792/D2/T28] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-05-18 04:36:38,238 [P13792/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-17 04:36:38
+ 2017-05-18 08:36:38,251 [P13792/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-17 08:36:38
+ 2017-05-18 12:36:38,264 [P13792/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-17 12:36:38
+ 2017-05-18 16:36:38,285 [P13792/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-17 16:36:38
+ 2017-05-18 20:36:38,297 [P13792/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-17 20:36:38
+ 2017-05-18 20:42:12,548 [P13792/D2/T21] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

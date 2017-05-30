@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+<div class="row margin">
+  <div class="col-xs-12">
+	@{ Html.RenderPartial("Breadcrumbs"); }
+        <h1>@Model.Content.Name</h1>
+</div>
+</div>
+
+<div class="mainBody">
+    <div class="row margin">
+		<div class="col-xs-12">
+
+    @{
+        var resultText = ""; var strPostCode = ""; var strLat = ""; var strLng = "";
+        var servicePage = Umbraco.TypedContent(1200);          @* The ID of the Service Repository *@
+        var results = servicePage.Children().OrderBy("Name");
+        var itemCount = 0;
+
+
+        if (results.Count() > 0)
+        {
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" id="resultsTbl">
+            <thead>
+                  <tr>
+                    <th>Service Name</th>
+                    <th>PostCode</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var serviceLocation in results)
+                {
+                    var pCode1 = serviceLocation.GetPropertyValue<string>("postcode");
+                    <tr>
+                        <td><a href="@serviceLocation.Url">@serviceLocation.Name</a></td>
+                        <td>@pCode1</td>
+                    </tr>
+                }
+              </tbody>
+            </table>
+        }
+      }
+	</div>
+    </div>
+</div>

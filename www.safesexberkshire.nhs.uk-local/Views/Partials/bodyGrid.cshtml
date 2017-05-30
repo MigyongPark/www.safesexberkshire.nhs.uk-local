@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+<div class="container">
+	<div class="row">
+	<div class="col-xs-12">
+		<h1 class="inContent">@Umbraco.Field("pageName")</h1>
+	</div>
+	</div>
+</div>
+	@Html.Partial("introText")
+
+<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					@Umbraco.Field("bodyText")
+				</div>
+			</div>
+</div>

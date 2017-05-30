@@ -1,0 +1,35 @@
+﻿ 2016-09-16 03:18:36,610 [P9460/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-15 03:18:36
+ 2016-09-16 07:18:36,623 [P9460/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-15 07:18:36
+ 2016-09-16 10:45:06,190 [P9460/D2/T32] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-09-16 11:18:36,631 [P9460/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-15 11:18:36
+ 2016-09-16 15:04:57,908 [P9460/D2/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username jo.jefferies@bracknell-forest.gov.uk from IP address 195.59.13.75
+ 2016-09-16 15:04:57,908 [P9460/D2/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: jo.jefferies@bracknell-forest.gov.uk logged in from IP address 195.59.13.75
+ 2016-09-16 15:04:58,158 [P9460/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-09-16 15:04:58,158 [P9460/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-09-16 15:04:58,283 [P9460/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-09-16 15:04:58,283 [P9460/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-09-16 15:04:58,314 [P9460/D2/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-09-16 15:04:58,314 [P9460/D2/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-09-16 15:04:58,329 [P9460/D2/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-09-16 15:18:36,644 [P9460/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-15 15:18:36
+ 2016-09-16 15:18:38,175 [P9460/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-09-16 15:18:38,175 [P9460/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-09-16 15:18:39,019 [P9460/D2/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-09-16 15:18:39,019 [P9460/D2/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-09-16 15:18:54,675 [P9460/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1110' has been published.
+ 2016-09-16 15:18:58,753 [P9460/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-09-16 15:18:58,769 [P9460/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2016-09-16 15:27:15,754 [P9460/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chlamydia' with Id '1325' has been published.
+ 2016-09-16 15:27:19,816 [P9460/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-09-16 15:27:19,832 [P9460/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2016-09-16 19:18:36,656 [P9460/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-15 19:18:36
+ 2016-09-16 20:36:23,509 [P9460/D2/T41] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-09-16 23:18:36,669 [P9460/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-09-15 23:18:36

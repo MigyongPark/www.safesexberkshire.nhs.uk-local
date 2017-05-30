@@ -1,0 +1,150 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@* Static navbar *@
+@{
+var homePage = Model.Content.AncestorOrSelf(1);
+var currPgId = @CurrentPage.AncestorOrSelf(1).Id;
+var currPgAreaId = @CurrentPage.AncestorOrSelf(2).Id;
+var subPgId = @CurrentPage.Id;
+var activeClass = "";
+string sectionName = "";
+}
+
+
+   <nav class="navbar navbar-default navbar-inverse" data-spy="affix" data-offset-top="280">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12 nav-padding">
+
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     </button>
+                    <a href="#" title="Empty link"></a>
+            </div>
+            
+            <!-- added id expNavMenu to position expanded nav below 768px -->
+            <div id="expNavMenu" class="col-xs-12 nav-padding">
+
+                  <div id="navbar" class="navbar-collapse collapse"> <!-- removed container class -- Alex -->
+                     <ul class="nav navbar-nav">
+
+
+                       @if (homePage.Id == currPgAreaId)
+                       {
+                           activeClass = "active";
+                       }
+
+
+                       <li class="@activeClass"><a href="@homePage.Url">@homePage.Name</a></li>
+
+                       @foreach (var page in homePage.Children.Where("Visible"))
+                       {
+
+                           @* If the page has child nodes (2nd level) *@
+                           if (page.Children.Where("Visible").Count() > 0)
+                           {
+                               activeClass = "";
+                               if (page.Id == currPgAreaId)
+                               {
+                                   activeClass = "active";
+                               }
+
+
+                               int cpaos = currPgId;
+                               int cpId = subPgId;
+
+                               int sectionId = page.Id;
+
+                              @* Pharmacy page, etc doesnt match cases, need to check ancestor (1 lvl up) for page.Id *@
+
+                               switch (sectionId) {
+                                 case 1119:
+                               		sectionName = "local-services";
+                               		break;
+                               	case 1120:
+                               		sectionName = "sexual-health-matters";
+                               		break;
+                               	case 1122:
+                               		sectionName = "sexAndRelationships";
+                               		break;
+                               	case 1123:
+                               		sectionName = "keepingSafe";
+                               		break;
+                               	case 1125:
+                               		sectionName = "helpAndSupport";
+                               		break;
+                                default:
+                                   sectionName = "home";
+                                   break;
+                               }
+
+                               <li class="dropdown @activeClass @sectionName">
+                                   <a href="@page.Url">@page.Name<span class="caret"></span></a>
+                                   <ul class="dropdown-menu @sectionName">
+                                       @foreach (var childPage in page.Children.Where("Visible"))
+                                       {
+
+                                           @* If the childPage has child nodes (3rd level) *@
+                                           if (childPage.Children.Where("Visible").Count() > 0)
+                                           {
+                                               <li class="dropdown">
+                                                   <a href="@childPage.Url ">
+                                                       @childPage.Name<span class="caret"></span>
+                                                   </a>
+                                                   <ul class="dropdown-menu">
+                                                       @foreach (var grandChildPage in childPage.Children.Where("Visible"))
+                                                       {
+                                                           <li><a href="@grandChildPage.Url">@grandChildPage.Name</a></li>
+                                                       }
+                                                   </ul>
+                                               </li>
+                                           }
+                                           else
+                                           {
+                                               if (childPage.Id == 1441)
+                                               {
+                                                   <li><a href="http://jobs.hct.nhs.uk/">@childPage.Name</a></li>
+                                               }
+                                               else
+                                               {
+                                                   <li><a href="@childPage.Url">@childPage.Name</a>
+
+                                                   </li>
+                                               }
+                                           }
+
+                                       }
+
+                                   </ul>
+
+                               </li>
+                           }
+                           else
+                           {
+                               activeClass = "";
+                               if (page.Id == currPgId)
+                               {
+                                   activeClass = "active";
+                               }
+
+                               <li class="@activeClass">
+                                   <a href="@page.Url">@page.Name</a>
+                               </li>
+                           }
+                       }
+                    </ul>
+               </div>@*/#nav-bar *@
+
+            </div>
+
+         </div>
+
+      </div> @*/.row *@
+
+    </div>@*/.container *@
+      </nav>

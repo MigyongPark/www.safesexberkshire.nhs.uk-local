@@ -1,0 +1,29 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	var panelsLocation = "";
+}
+
+<div class="col-xs-12 col-lg-4" id="questions">
+	<div class="row margin" >
+		<div class="col-xs-8 col-lg-9">
+			<h1 class="personalise heading">Personalise</h1>
+		</div>
+		<div class="col-xs-4 col-lg-3">
+			<svg class="icon icon-road-sign">
+				<use xlink:href="#icon-funnel"></use>
+			</svg>
+		</div>
+	</div>
+	<div class="row panelContent @panelsLocation">
+		<div class="col-xs-12">
+			<ul class="quest-list filter-button-group">
+				<li><a class="orange" href="#filteredResults" data-filter=".unprotected">I've had unprotected sex in the last 5 days</a></li>
+				<li><a class="orange" href="#filteredResults" data-filter=".checkup">I have no symptoms but want a check up</a></li>
+				<li><a class="orange" href="#filteredResults" data-filter=".contraception">I need contraception</a></li>
+				<li><a class="orange" href="#filteredResults" data-filter=".hiv" onClick="ga('send', 'event', 'HIV', 'HIV click', 'HIV filter button');">I want an HIV test</a></li>
+				<li><a class="orange" href="#filteredResults" data-filter=".chlamydia" onClick="ga('send', 'event', 'Chlamydia', 'Chlamydia click', 'Chlamydia filter button');">I want a Chlamydia screening kit</a></li>
+				<li><a class="orange" href="#filteredResults" data-filter=".young">I'm a young person</a></li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,777 @@
+</*
+CLH Colours
+Grey:			#d8dada
+Red:			#ee2e24
+Orange: 		#f8981d
+Blue:			#00529b
+Green:			#00a950
+Aqua:			#00aedb
+*/>
+
+/* ######################## FONTS ######################## */
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('/fonts/geomanist-light-webfont.eot');
+    src: url('/fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/geomanist-light-webfont.woff2') format('woff2'), url('/fonts/geomanist-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('/fonts/geomanist-book-webfont.eot');
+    src: url('/fonts/geomanist-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/geomanist-book-webfont.woff2') format('woff2'), url('/fonts/geomanist-book-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('/fonts/geomanist-ultra-webfont.eot');
+    src: url('/fonts/geomanist-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/geomanist-ultra-webfont.woff2') format('woff2'), url('/fonts/geomanist-ultra-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* ICON FONT */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?1yxnek');
+    src: url('fonts/icomoon.eot?1yxnek#iefix') format('embedded-opentype'),
+         url('fonts/icomoon.ttf?1yxnek') format('truetype'),
+         url('fonts/icomoon.woff?1yxnek') format('woff'),
+         url('fonts/icomoon.svg?1yxnek#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ICON CLASS */
+
+.icon-svg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-fax-machine:before {
+    content: "\e90e";
+}
+
+.icon-home3:before {
+    content: "\e900";
+}
+.icon-heart:before {
+    content: "\e901";
+}
+.icon-eye-crossed:before {
+    content: "\e902";
+}
+.icon-map:before {
+    content: "\e903";
+}
+.icon-road-sign:before {
+    content: "\e904";
+}
+.icon-siren:before {
+    content: "\e905";
+}
+.icon-accessibility:before {
+    content: "\e906";
+}
+.icon-magnifier:before {
+    content: "\e907";
+}
+.icon-cross:before {
+    content: "\e908";
+}
+.icon-check:before {
+    content: "\e909";
+}
+.icon-chevron-up:before {
+    content: "\e90a";
+}
+.icon-chevron-down:before {
+    content: "\e90b";
+}
+.icon-chevron-left:before {
+    content: "\e90c";
+}
+.icon-chevron-right:before {
+    content: "\e90d";
+}
+
+/* #################################################### */
+
+html {
+	overflow-y: scroll;
+}
+
+
+body {
+  font-family: Geomanist;
+  font-size: 16px;
+  line-height: 1.62857143;
+}
+
+
+
+h1 {
+	margin-bottom: 0.6em;
+	margin-top: 0;
+}
+
+h2 {
+	color:#00529b;
+}
+
+p {
+	margin-bottom: 1.6em;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus
+{
+	text-decoration: none;
+}
+
+header{   background-image: url("header-image-large.png");
+
+}
+
+
+.container-fluid {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.body-color {
+   background-color: #f2eddc;
+}
+
+.content {
+   padding-top: 15px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* ################## Section Classes ################# */
+
+
+
+.local-services {
+	background-color: #3bbfb2;
+}
+
+/* ---------------------------------------------------- */
+
+.sexual-health-matters {
+	background-color: #cd1e3b;
+}
+
+/* ---------------------------------------------------- */
+
+.sexAndRelationships {
+	background-color: #E79B52;
+}
+
+/* ---------------------------------------------------- */
+
+.keepingSafe {
+	background-color: #F2766B;
+}
+
+/* ---------------------------------------------------- */
+
+.helpAndSupport {
+	background-color: #3A3A3A;
+}
+
+/* #################################################### */
+
+.clear {
+
+	}
+
+
+
+#introTxtBg {
+	background: #3bbfb2 url(/images/bus.png) no-repeat 0% 50%;
+	color: #fff;
+	font-size: 100%;
+	padding: 10px 5px;
+	z-index:0;
+}
+
+#introTxt h1 {
+	font-size: 24pt;
+	line-height: 100%;
+	color: #fff;
+	font-weight: 900;
+}
+
+#introTxt p {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 10px 5px;
+	font-weight: 300;
+	z-index: 99;
+	font-size: 0.8em;
+	top:0;
+}
+
+#introTxt a {
+	color: #fff;
+}
+
+.intro {
+	z-index: 999;
+	position: relative;
+	margin-left: 35%;
+}
+
+.health {
+	float:right;
+	margin-top: 30px;
+	margin-right: 20px;
+	position: relative;
+}
+
+#clinicFinder {
+	background: url(/images/berkshire-find-clinic-map.png) no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1.clinic {
+	color: #3bbfb2;
+	margin-top:0;
+	padding: 5px;
+	font-size: 19pt;
+
+}
+
+.clinicbg {
+	background-color: #F2EDDC;
+	padding: 0 0 10px 0;
+	z-index: 2;
+	}
+
+.clinicbg1 {
+
+	background: -webkit-linear-gradient(90deg, #F2EDDC 70%, #D9D1B9 30%);
+	background: -o-linear-gradient(90deg, #F2EDDC 70%, #D9D1B9 30%); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(90deg, #F2EDDC 70%, #D9D1B9 30%); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(90deg, #F2EDDC 70%, #D9D1B9 30%);
+	z-index: 3;
+	}
+
+
+.icon-map {
+	fill: #3bbfb2;
+	width: 70px;
+	height: 70px;
+}
+
+.postcode {
+	background-color: #cd1e3b;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+	color: #F2EDDC;
+}
+
+.postcode2 {
+	background-color: #cd1e3b;
+   width: 90%;
+    height: 50px;
+    margin-top: 10px;
+	margin-left: 10px;
+	color: #F2EDDC;
+}
+
+.pcode {
+	float:left;
+	margin-top: 10px;
+}
+
+.icon-magnifier {
+	fill: #fff;
+	width: 20px;
+	height 20px;
+	position: relative;
+	z-index:999;
+	float: right;
+	margin-top: -50px;
+}
+
+#signposts {
+	background: #3bbfb2;
+	color: #F2EDDC;
+	font-size: 125%;
+	padding: 10px 5px;
+}
+
+#signposts ul {
+	list-style-type: none;
+	margin-left: -35px;
+}
+
+#signposts h1 {
+	font-size: 24pt;
+}
+/*.cream {
+	background-color: #F2EDDC;
+	color: #3bbfb2;
+	padding: 10px;
+	height: 50px;
+}
+
+
+
+.pink {
+	background-color: #cd1e3b;
+	color: #F2EDDC;
+	padding: 10px;
+	height: 50px;
+	border-top: 1px solid #F2EDDC;
+	border-bottom: 1px solid #F2EDDC;
+	border-left: 1px solid #F2EDDC;
+}
+*/
+
+li.sign:nth-child(odd) {
+    background-color: #F2EDDC;
+	color: #3bbfb2;
+	padding: 10px;
+	height: 50px;
+ }
+
+li.sign:nth-child(odd) > a > span.arrow {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid #F2EDDC;
+	position: absolute;
+	right: 0;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+li.sign:nth-child(odd) > a {
+	text-decoration: none;
+	color: #3bbfb2;
+}
+
+li.sign:nth-child(even) {
+   	background-color: #cd1e3b;
+	color: #F2EDDC;
+	padding: 10px;
+	height: 50px;
+	border-top: 1px solid #F2EDDC;
+	border-bottom: 1px solid #F2EDDC;
+	border-left: 1px solid #F2EDDC;
+ }
+
+li.sign:nth-child(even) > a > span.arrow {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid #cd1e3b;
+	position: absolute;
+	right: 0;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+li.sign:nth-child(even) > a {
+	text-decoration: none;
+	color: #F2EDDC;
+}
+
+li.sign:nth-child(odd) > a > svg.icon-chevron-right {
+	width: 20px;
+	height: 20px;
+	fill:#3bbfb2;
+	float:right;
+	margin-right:-20px;
+	z-index: 999;
+	margin-top: 5px;
+	position:relative;
+}
+
+li.sign:nth-child(even) > a > svg.icon-chevron-right {
+	width: 20px;
+	height: 20px;
+	fill:#F2EDDC;
+	float:right;
+	margin-right:-20px;
+	z-index: 999;
+	margin-top: 5px;
+	position:relative;
+}
+
+.icon-road-sign {
+	width: 40px;
+	height: 40px;
+	fill:#F2EDDC;
+	transform: rotate(340deg);
+  	transform-origin: 50% 50%;
+}
+.container table, .container th, .container td {
+	border: 2px solid #fff;
+	}
+
+.container th {
+	background: #01addb;
+	color: #fff;
+	font-size: 115%;
+	padding: 10px;
+}
+
+.container td {
+	padding: 0.6em;
+	vertical-align: top;
+}
+
+.oddRow td {
+	background: #f6f6f6;
+}
+
+.container table.no-banding .oddRow td {
+	background: #fff;
+}
+
+.container td ul, .container td ol {
+	padding-left: 20px;
+}
+
+.container ul li, .container ol li {
+	margin-bottom: 1em;
+}
+
+.container ul.sub-nav li {
+	margin-bottom: 0.2em;
+}
+
+#introTxt .container table,
+#introTxt .container th,
+#introTxt .container td {
+	border: 0;
+}
+
+
+
+#map-canvas {
+	height: 300px;
+	margin: 0 0 30px 0;
+	padding: 0;
+	width: 100%;
+}
+
+footer {
+    background: #474645;
+	color: #fff;
+	margin-top: 6em;
+    padding: 1em 0;
+	min-height: 5em;
+}
+
+footer a, footer a:hover, footer a:focus {
+	color:#fff;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.doclist {
+background: url(../images/pdf.png) no-repeat;
+margin: 0 0 3em 0;
+min-height: 64px;
+padding-left: 84px;
+}
+
+.meeting {
+background: url(../images/meeting.png) no-repeat;
+margin: 0 0 3em 0;
+min-height: 64px;
+padding-left: 84px;
+}
+
+.img-left {
+	float:left;
+	padding: 0px 15px 5px 0px;
+
+		}
+footer a.twitter {
+background: url(../images/trans-twitter-bird.png) no-repeat;
+background-color: #00aedb;
+border: 1px solid #00aedb;
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+margin: 0 0 3em 0;
+height: 64px;
+width: 64px;
+float:right;
+}
+
+footer a.twitter:hover {
+background: url(../images/trans-twitter-bird.png) no-repeat;
+background-color: #80d6ed;
+border: 1px solid #80d6ed;
+
+}
+
+#loginModel_Password{
+margin-left: 1px;
+color:#000;
+}
+
+#registerModel_Password{
+color:#000;
+}
+
+#registerModel_Email{
+margin-left: 33px;
+color:#000;
+}
+
+#registerModel_Name{
+margin-left: 32px;
+color:#000;
+
+}
+
+#loginModel_Username
+{
+color:#000;
+}
+
+button{
+    margin-top: 10px;
+    padding: 4px;
+    background: #00AEDB;
+    color: white;
+    border-radius: 6px;
+    border: solid #00AEDB;
+
+}
+
+.box{
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+    }
+	.Yes{ background: #fff; }
+    .No{ background: #fff; }
+    .blue{ background: #0000ff;
+}
+
+/* noJSmenu Styles */
+
+
+.sitemap > ul li{
+	float: left;
+}
+
+.sitemap > ul li.level-2 {
+	font-weight: bold;
+    border-right: 1px dotted #FBB254;
+    padding-right: 10px;
+	min-height: 68px;
+}
+
+.sitemap > ul li.level-3 {
+	font-weight: normal;
+
+}
+
+#intranet{
+    position: relative;
+    top: -35px;
+}
+
+#intranet button   {
+	margin-top: 10px;
+    padding: 4px;
+    background: #00AEDB;
+    color: white;
+    border-radius: 6px;
+    border: solid #00AEDB;
+	height: 40px;
+	border: 0 none;
+}
+
+.nhs-logo {
+      display: block;
+    text-align: right;
+    margin-bottom: 0;
+    position: absolute;
+    top: -60px;
+
+    width: 59%;
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 360px) {
+	.feature-txt h2 {
+		font-size: 140%;
+	}
+
+	.desktop {
+	display:none;
+	}
+
+ }
+
+@media (max-width: 480px) {
+	.container.header-banner  {
+	height: 200px;
+	}
+
+	header  {
+
+	/*height: 150px;*/
+	max-width: 480px;
+	margin:auto;
+	}
+ }
+
+@media (max-width: 578px) {
+	.sitemap > ul li.level-2 {
+	border-right: none;
+    border-bottom: 1px dotted #FBB254;
+	min-height: 34px;
+	}
+}
+
+ @media (min-width: 481px) AND (max-width: 750px) {
+	.container.header-banner  {
+	height: 175px;
+	}
+
+	header {
+
+	/*height: 175px;*/
+
+	margin:auto;
+	}
+
+	#map-canvas {
+		height: 480px;
+	}
+}
+
+@media (min-width: 751px) AND (max-width: 960px) {
+	.container.header-banner  {
+	height: 200px;
+	}
+
+	header {
+
+	/*height: 200px;*/
+	max-width: 960px;
+	margin:auto;
+	}
+
+	#map-canvas {
+		height: 300px;
+	}
+ }
+
+ @media (min-width: 768px) {
+	.menu .sub-menu {
+	  top: 38px;
+	position: relative;
+	}
+
+	h1 {
+		font-size: 260%;
+	}
+	.memberGPs > div {
+		min-height: 13em;
+	}
+
+
+ }
+
+  @media (max-width: 768px) {
+
+}
+
+
+
+
+
+ @media (min-width: 961px) {
+	.container.header-banner  {
+	height: 275px;
+	}
+
+	header {
+
+	/*height: 110px;*/
+	max-width: 1200px;
+	margin:auto;
+	}
+
+ 	.tweet {
+		float: left;
+		margin: 0 1%;
+		width: 31.33333333333333%;
+	}
+
+	#map-canvas {
+		height: 450px;
+	}
+}
+
+@media (min-width: 991px) {
+	.sitemap > ul li {
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+   .container {
+       width: 1200px;
+      }
+   }

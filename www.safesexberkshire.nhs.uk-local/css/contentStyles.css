@@ -1,0 +1,254 @@
+
+/*h1.inContent {
+	font-size: 48px;
+	font-weight: 900;
+}*/
+
+body {
+	color: #42454a;
+	font-size: 14pt;
+	counter-reset: item;
+}
+
+strong {
+	font-weight: 500;
+}
+
+em {
+	font-style: italic;
+}
+
+h1 {
+	font-weight: 500;
+	margin: 1em 0;
+}
+
+h2 {
+	font-weight: 300;
+	margin: .5em 0;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15pt;
+	color: #3bbfb2;
+}
+
+a:hover {
+	color: #f2766b;
+	opacity: 1.0;under
+}
+
+a:visited {
+	color: #824d43;
+	text-decoration: none;
+}
+
+/*############################################
+					List Styles
+############################################*/
+
+.contentwrapper li {
+	list-style: none;
+	margin: 0 .5em .5em -1em;
+}
+
+.contentwrapper ul > li:before {
+	margin-right: 0.5em;
+}
+
+.local-services .contentwrapper > ul > li:before {
+	content: "•";
+	color: #3bbfb2;
+}
+.sexual-health-matters .contentwrapper ul > li:before {
+	content: "•";
+	color: #cd1e3b;
+}
+.sexAndRelationships .contentwrapper > ul > li:before {
+	content: "•";
+	color: #E79B52;
+}
+.keepingSafe .contentwrapper > ul > li:before {
+	content: "•";
+	color: #F2766B;
+}
+.helpAndSupport .contentwrapper > ul > li:before {
+	content: "•";
+	color: #3A3A3A;
+}
+
+.contentwrapper ul > li:first-child > ul {
+	border-top: 2px solid #e1d4bb;
+	background-color: #ecdfc5;
+	list-style-position: inside;
+	opacity: 0.8;
+	border-radius: 1px;
+}
+
+.local-services .contentwrapper ul li > ul > li:before,
+.sexual-health-matters .contentwrapper ul li > ul > li:before,
+.sexAndRelationships .contentwrapper ul li > ul > li:before,
+.keepingSafe ul .contentwrapper li > ul > li:before,
+.helpAndSupportli .contentwrapper ul li > ul > li:before {
+	list-style: none;
+	content: "\25e6  ";
+	opacity: 0.75;
+}
+
+.local-services .contentwrapper ul li > ul > li > ul > li:before,
+.sexual-health-matters .contentwrapper ul li > ul > li > ul > li:before,
+.sexAndRelationships .contentwrapper ul li > ul > li:before,
+.keepingSafe .contentwrapper ul li > ul > li:before,
+.helpAndSupportli .contentwrapper ul li > ul > li:before {
+	list-style: none;
+	content: "\21E2 ";
+	opacity: 0.75;
+}
+
+.contentwrapper ol {
+	list-style: none;
+}
+
+.contentwrapper ol li {
+	counter-increment: item;
+}
+
+.contentwrapper ol li:before {
+	width: 30px;
+	margin-right: 0.5em;
+	content: counter(item);
+	border-radius: 1px;
+	color: #f2eddc;
+	text-align: center;
+	display: inline-block;
+	opacity: 0.8;
+}
+
+.local-services .contentwrapper ol li:before {
+	background-color: #3bbfb2;
+}
+.sexual-health-matters .contentwrapper ol li:before {
+	background-color: #cd1e3b;
+}
+.sexAndRelationships .contentwrapper ol li:before {
+	background-color: #E79B52;
+}
+.keepingSafe .contentwrapper ol li:before {
+	background-color: #F2766B;
+}
+.helpAndSupport .contentwrapper ol li:before {
+	background-color: #3A3A3A;
+}
+
+/*############################################
+					End  of List Styles
+############################################*/
+
+/*############################################
+					Image Styles
+############################################*/
+
+img {
+	border-radius: 1px;
+}
+
+.img-aligned-left {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin: 15px;
+}
+
+/*############################################
+				End of image Styles
+############################################*/
+
+/*############################################
+					Table Styles
+############################################*/
+
+.container table {
+	background-color: #ede2ca;
+	/*border-top: none;*/
+	/*border-right: 2px solid #ede2ca;
+	border-left: 2px solid #ede2ca;
+	border-bottom: 2px solid #ede2ca;*/
+}
+
+.container table, .container table th, .container table td {
+	padding: 0.5em;
+	/*margin: 15px;*/
+}
+
+/*.container table tr {
+	border-bottom: 3px solid #e3d5b8;
+}*/
+
+.container table td {
+	/*opacity: 0.8;*/
+	/*border-top: 3px solid #e3d5b8;
+	border-right: solid 1px #e3d5b8;*/
+	border: 2px solid #e3d5b8;
+}
+
+.container table tr:last-child {
+	/*opacity: 0.8;*/
+	/*border-bottom: 3px solid #e3d5b8;*/
+}
+
+.container table th {
+ /*border-top: 2px solid #c2b69d;*/
+ /*border-left: solid 1px #c2b69d;*/
+ /*border-right: 2px solid #c2b69d;*/
+ /*padding: .5em .5em .5em .4em;*/
+ /*position: relative;*/
+ font-size: 16pt;
+ font-weight: 500;
+ /*line-height: .8em;*/
+ background-color: #c2b69d;
+ color: #f2eddc;
+ border: 2px solid #c2b69d;
+}
+
+.container table td:last-child {
+	border-right: none;
+}
+
+table.dataTable>tbody>tr.child span.dtr-title {
+ font-weight: normal !important;;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+	height: 17px;
+	width: 17px;
+	text-indent: 3px;
+	line-height: 18px;
+}
+/*############################################
+				End of Table Styles
+############################################*/
+#divGmapInfoWin a {
+	font-size: 12pt;
+}
+
+.contentwrapper {
+	background-color: #f2eddc;
+	padding-bottom: 20px;
+	min-height: 40em;
+}
+
+@media (min-width: 320px) {
+
+
+
+	/*.contentWrapper {
+		background-color: #f2eddc;
+		width: 1200px;
+		margin: 0 auto;
+	}*/
+
+}
+
+.gsc-clear-button {
+	display:none;
+}

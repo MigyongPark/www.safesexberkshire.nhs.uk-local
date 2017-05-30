@@ -1,0 +1,7 @@
+﻿ 2016-12-15 00:46:51,432 [P13420/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-14 00:46:51
+ 2016-12-15 01:18:59,905 [P13420/D2/T30] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-15 04:46:51,445 [P13420/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-14 04:46:51
+ 2016-12-15 08:46:51,458 [P13420/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-14 08:46:51
+ 2016-12-15 12:46:51,470 [P13420/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-14 12:46:51
+ 2016-12-15 16:46:51,483 [P13420/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-14 16:46:51
+ 2016-12-15 20:46:51,495 [P13420/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-14 20:46:51

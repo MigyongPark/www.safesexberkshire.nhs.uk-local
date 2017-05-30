@@ -1,0 +1,9 @@
+﻿ 2016-10-13 01:30:48,682 [P11736/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-12 01:30:48
+ 2016-10-13 05:30:48,695 [P11736/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-12 05:30:48
+ 2016-10-13 05:37:40,961 [P11736/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-13 09:30:48,708 [P11736/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-12 09:30:48
+ 2016-10-13 09:46:47,553 [P11736/D2/T38] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-13 11:02:51,578 [P11736/D2/T12] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-13 13:30:48,720 [P11736/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-12 13:30:48
+ 2016-10-13 17:30:48,736 [P11736/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-12 17:30:48
+ 2016-10-13 21:30:48,749 [P11736/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-12 21:30:48

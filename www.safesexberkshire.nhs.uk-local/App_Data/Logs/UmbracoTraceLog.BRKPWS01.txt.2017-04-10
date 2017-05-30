@@ -1,0 +1,46 @@
+﻿ 2017-04-10 00:15:55,298 [P6904/D2/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-09 00:15:55
+ 2017-04-10 04:15:55,310 [P6904/D2/T10] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-09 04:15:55
+ 2017-04-10 05:11:46,832 [P5544/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.4 application starting on BRKPWS01
+ 2017-04-10 05:11:46,895 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-04-10 05:11:46,911 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2017-04-10 05:11:47,145 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-04-10 05:11:47,161 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 24ms)
+ 2017-04-10 05:11:47,207 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-04-10 05:11:47,207 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2017-04-10 05:11:47,207 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-04-10 05:11:47,207 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2017-04-10 05:11:47,239 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-04-10 05:11:47,239 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2017-04-10 05:11:47,239 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-04-10 05:11:47,254 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2017-04-10 05:11:47,301 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-04-10 05:11:47,301 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-04-10 05:11:47,301 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-04-10 05:11:47,301 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-04-10 05:11:48,442 [P5544/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-04-10 05:11:48,754 [P5544/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-04-10 05:11:48,754 [P5544/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-04-10 05:11:48,786 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-04-10 05:11:48,786 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-04-10 05:11:49,614 [P5544/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-04-10 05:11:49,629 [P5544/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will rebuild its caches and indexes and then adjust it's last synced id to the latest found in the database and will start maintaining cache updates based on that id
+ 2017-04-10 05:11:49,723 [P5544/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-04-10 05:11:49,723 [P5544/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-04-10 05:11:49,739 [P5544/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2017-04-10 05:11:51,457 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-04-10 05:11:51,457 [P5544/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-04-10 05:11:52,832 [P5544/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-04-10 05:11:52,848 [P5544/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-04-10 05:11:52,848 [P5544/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-04-10 05:11:52,864 [P5544/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6218ms)
+ 2017-04-10 05:11:54,692 [P5544/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-04-10 05:11:54,973 [P5544/D2/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-04-10 05:11:55,254 [P5544/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.safesexberkshire.nhs.uk/umbraco (UmbracoModule request)
+ 2017-04-10 08:26:32,511 [P5544/D2/T34] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 09:12:55,673 [P5544/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-09 09:12:55
+ 2017-04-10 13:12:55,686 [P5544/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-09 13:12:55
+ 2017-04-10 17:11:00,412 [P5544/D2/T25] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 17:12:55,693 [P5544/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-09 17:12:55
+ 2017-04-10 19:36:58,992 [P5544/D2/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-04-10 21:12:55,706 [P5544/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-09 21:12:55
+ 2017-04-10 21:33:59,693 [P5544/D2/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

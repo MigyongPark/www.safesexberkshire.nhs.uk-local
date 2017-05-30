@@ -1,0 +1,165 @@
+/***** Small devices Tablets (≥768px) *****/
+
+.navbar-default {
+   background: #F2EDDC no-repeat 0% 0%;
+   border-bottom: 1px solid #d9d1b9;
+   border-radius: 0;
+   color: #3BBFB2;
+   z-index: 1000;
+   margin: 0 0 0 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   /*color: #3BBFB2;*/
+}
+.nhs-logo {
+   width: 271px;
+   display: block;
+   position: absolute;
+
+}
+.ss-logo-sm {
+	margin-top: -20px;
+    display: none;
+}
+.nhs-logo-lg {
+  /*width: 220px;*/
+  display:block;
+  /*padding: 20px 10px;*/
+	padding: 0;
+	margin-left: -40px;
+}
+
+@media (min-width: 480px) {
+	.legalStuff #nhsLogoFtr {
+        display: none;
+    }
+}
+
+.header-top {
+    width: 300px;
+    top: 213px;
+    left: 30px;
+}
+
+.search-sml {
+    width: 300px;
+    top: 117px;
+    right: 40px;
+}
+.main-heading {
+  margin-top: 20px;
+}
+
+#map-canvas3 {
+   height: 400px !important;
+}
+
+.main-title {
+background: url("../images/header-image-large8.png") no-repeat 50% 50%;
+width: 100%;
+margin:0 auto;
+height: 283px;
+}
+
+.main-title-temp {
+background: url("../images/HIVtestweek 1170x283-v3.jpg") no-repeat 50% 50%;
+	display: block;
+width: 100%;
+margin:0 auto;
+height: 283px;
+}
+
+li.sign:nth-child(odd) > a > span.arrow, li.sign:nth-child(odd) > a:hover > span.arrow {
+ 	margin-right: 1px;
+}
+
+li.sign:nth-child(even) > a > span.arrow, li.sign:nth-child(even) > a:hover > span.arrow {
+ 	margin-right: 1px;
+}
+
+.gutter-padding {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.navbar-nav {
+   /*margin-top: -38px;
+      margin-bottom: -19px;*/
+}
+.navbar-header {
+   z-index: 900;
+   position: relative;
+   top: 11px;
+   float: right;
+}
+.header-top {
+   margin-top: 6px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   background: #F2EDDC;
+}
+.icon-header-siren {
+   width: 32px;
+   height: 32px;
+}
+.icon-header-eye {
+   width: 32px;
+   height: 32px;
+}
+table.gsc-search-box {
+   margin-top: 34px;
+
+}
+.cse form.gsc-search-box, form.gsc-search-box {
+   padding: 8px 48px 2px 6px;
+   margin-bottom: -17px;
+}
+
+
+
+.gsc-control-searchbox-only, .gsc-control-searchbox-only-en {
+  padding: 8px 4px 2px 6px;
+  margin-top: -39px;
+  width: 100%;
+  opacity: 0.9;
+  float: right;
+
+}
+
+.cse form.gsc-search-box, form.gsc-search-box {
+
+    background: none;
+}
+
+.intro {
+	z-index: 999;
+	position: relative;
+	margin-left: 20%;
+  width: 80%;
+}
+
+/*****   Style for isotope/masonry     ******/
+  .grid-sizer, .grid-item {
+    width: 50%;
+  }
+
+  .grid-item {
+    width:  50%;
+    height: auto;
+    float: left;
+    background: #2296DD;
+    border: 4px solid #42454a;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+  /*****   End Style for isotope/masonry     ******/
+
+
+  a.LocQue {
+    min-height: 8em;
+  }
+
+/*****  End of SurveyMonkey banner     ******/

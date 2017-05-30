@@ -1,0 +1,504 @@
+/*nav.navbar {
+      margin-bottom: 0;
+      min-height: 40px;
+  }*/
+
+/*.nav-dot {
+    width: 16px;
+    position: relative;
+    z-index: 1100;
+    fill: rgb(208, 46, 238);
+    display: none;
+    float: right;
+}*/
+
+.nav-padding {
+   padding-left: 0;
+   padding-right: 0;
+}
+.navbar-default {
+   background-color: #f2eddc;
+   background-image: none;
+   border: 0;
+   border-radius: 0;
+   color: #fff;
+   z-index: 9999;
+   box-shadow: none;
+   margin-top: -81px; /* Alex - Nav edit */
+   border-bottom: 1px solid #d9d1b9;
+}
+
+@media (max-width: 768px) {
+    .navbar-default {
+       background-color: #f2eddc;
+       background-image: none;
+       height: 55px;
+   }
+
+   #expNavMenu {
+       margin-top: 2px;
+   }
+}
+
+.nav > li > a {
+   padding: 10px 12px;
+}
+.navbar #navbar li {
+   margin-bottom: 0;
+   /*margin-right: .4em;*/
+   margin: .5em .3em;
+}
+#navbar ul li:before {
+   content: none;
+}
+
+.navbar {
+margin-bottom: 0;
+}
+
+#navbar a {
+
+   border-radius: 1px;
+   text-shadow: none;
+   background: none;
+   box-shadow: none;
+   font-size: 14pt;
+   text-decoration: none;
+   font-weight: 300;
+
+
+}
+
+/*.local-services #navbar a:hover, .home #navbar a:hover {
+   color: #3BBFB2;
+   background-color: #f2eddc;
+}*/
+
+li.dropdown  li.active li.local-services {
+background-color: transparent;
+}
+
+#navbar li.local-services,
+#navbar li.sexual-health-matters,
+#navbar li.sexAndRelationships,
+#navbar li.keepingSafe,
+#navbar li.helpAndSupport     {
+background-color: transparent !important;
+}
+
+
+#navbar li.local-services a:hover {
+   color: #3BBFB2;
+}
+
+
+.local-services #navbar li.dropdown ul.dropdown-menu, .home #navbar li.dropdown ul.dropdown-menu {
+   color: #f2eddc;
+   background-color: #3BBFB2;
+}
+
+.local-services #navbar li.active a.has-submenu, .home #navbar li.active a.has-submenu {
+   color: #3BBFB2;
+}
+
+.home #navbar li a:hover.has-submenu {
+   background-color: #f2eddc;
+}
+
+
+.local-services #navbar a:hover, .local-services #navbar li.active a:hover.has-submenu, .home #navbar a:hover, .home #navbar li.active a:hover.has-submenu {
+   color: #3BBFB2;
+   background-color: #f2eddc;
+}
+.local-services #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu, .home #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu {
+   color: #3BBFB2;
+   background-color: #fff;
+   border-radius:0;
+}
+
+.local-services #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a, .home #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a {
+   color: #3BBFB2;
+}
+
+.local-services #navbar li.dropdown ul.dropdown-menu li.dropdown a.has-submenu, .home #navbar li.dropdown ul.dropdown-menu li.dropdown a.has-submenu {
+   color: #f2eddc;
+}
+
+.local-services #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a:hover,
+.local-services #navbar li.dropdown ul.dropdown-menu li.dropdown a:hover.has-submenu,
+.home #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a:hover,
+.home #navbar li.dropdown ul.dropdown-menu li.dropdown a:hover.has-submenu {
+   color: #3BBFB2;
+   background-color: #f2eddc;
+}
+
+#navbar li.sexual-health-matters a:hover {
+color: #cd1e3b;
+}
+
+.sexual-health-matters #navbar li.active a.has-submenu {
+   color: #cd1e3b;
+}
+.sexual-health-matters #navbar a:hover, .sexual-health-matters #navbar li.active a:hover.has-submenu {
+   color: #cd1e3b;
+   background-color: #f2eddc;
+}
+
+.sexual-health-matters #navbar li.dropdown ul.dropdown-menu {
+   color: #f2eddc;
+   background-color: #cd1e3b;
+}
+
+.sexual-health-matters #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu {
+   color: #cd1e3b;
+   background-color: #fff;
+   border-radius:0;
+}
+
+/*.sexual-health-matters #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a {
+   color: #cd1e3b;
+}*/
+
+.sexual-health-matters #navbar li.dropdown ul.dropdown-menu li.dropdown a.has-submenu {
+   color: #f2eddc;
+}
+
+.sexual-health-matters #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a:hover, .sexual-health-matters #navbar li.dropdown ul.dropdown-menu li.dropdown a:hover.has-submenu {
+   color: #cd1e3b;
+   background-color: #f2eddc;
+}
+
+#navbar li.sexAndRelationships a:hover {
+color: #e79b52;
+}
+
+.sexAndRelationships #navbar li.active a.has-submenu {
+   color: #e79b52;
+}
+
+.sexAndRelationships #navbar li.active a:hover.has-submenu {
+   color: #e79b52;
+   background-color: #f2eddc;
+}
+.sexAndRelationships #navbar a:hover {
+   /*color: #e79b52;*/
+   background-color: #f2eddc;
+}
+
+.sexAndRelationships #navbar li.dropdown ul.dropdown-menu {
+   color: #f2eddc;
+   background-color: #e79b52;
+}
+
+.sexAndRelationships #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu {
+   color: #e79b52;
+   background-color: #fff;
+   border-radius:0;
+}
+
+.sexAndRelationships #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a {
+   color: #e79b52;
+}
+
+.sexAndRelationships #navbar li.dropdown ul.dropdown-menu li.dropdown a.has-submenu {
+   color: #f2eddc;
+}
+
+.sexAndRelationships #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a:hover, .sexAndRelationships #navbar li.dropdown ul.dropdown-menu li.dropdown a:hover.has-submenu {
+   color: #e79b52;
+   background-color: #f2eddc;
+}
+
+#navbar li.keepingSafe a:hover {
+color: #3a3a3a;
+}
+
+.keepingSafe #navbar li.active a.has-submenu {
+   color: #3a3a3a;
+}
+
+.keepingSafe #navbar a:hover {
+   /*color: #f57569;*/
+   background-color: #f2eddc;
+}
+
+.keepingSafe #navbar li.dropdown ul.dropdown-menu {
+   color: #f2eddc;
+   background-color: #3a3a3a;
+}
+
+.keepingSafe #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu {
+   color: #3a3a3a;
+   background-color: #fff;
+   border-radius:0;
+}
+
+.keepingSafe #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a {
+   color: #3a3a3a;
+}
+
+.keepingSafe #navbar li.dropdown ul.dropdown-menu li.dropdown a.has-submenu {
+   color: #f2eddc;
+}
+
+.keepingSafe #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a:hover, .keepingSafe #navbar li.dropdown ul.dropdown-menu li.dropdown a:hover.has-submenu {
+   color: #3a3a3a;
+   background-color: #f2eddc;
+}
+
+#navbar li.helpAndSupport a:hover {
+color: #f57569;
+}
+
+.helpAndSupport #navbar li.active a.has-submenu {
+   color: #f57569;
+}
+
+.helpAndSupport #navbar a:hover {
+   /*color: #3a3a3a;*/
+   background-color: #f2eddc;
+}
+
+.helpAndSupport #navbar li.dropdown ul.dropdown-menu {
+   color: #f2eddc;
+   background-color: #F2766B;
+}
+
+.helpAndSupport #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu {
+   color: #f57569;
+   background-color: #fff;
+   border-radius:0;
+}
+
+.helpAndSupport #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a {
+   color: #f57569;
+}
+
+.helpAndSupport #navbar li.dropdown ul.dropdown-menu li.dropdown a.has-submenu {
+   color: #f2eddc;
+}
+
+.helpAndSupport #navbar li.dropdown ul.dropdown-menu li.dropdown ul.dropdown-menu a:hover, .helpAndSupport #navbar li.dropdown ul.dropdown-menu li.dropdown a:hover.has-submenu {
+   color: #f57569;
+   background-color: #f2eddc;
+}
+/*add hover and highlighted styles*/
+
+.navbar-nav {
+   margin-top: 3px;
+}
+
+/*.navbar-default .navbar-nav > li > a {
+   text-decoration: none;
+   color: #3BBFB2;
+}*/
+.navbar-default .navbar-nav > a {
+   color: #3BBFB2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+   color: #3BBFB2;
+   font-weight: 500;
+   background-image: none;
+   text-decoration: none;
+}
+
+.navbar-default .navbar-toggle {
+   background-color: #796933;
+   opacity: 0.65;
+   float: right;
+   border: none;
+   border-radius: 0;
+   width: auto;
+   margin: 10px 15px 10px 15px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: #fff;
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #f2eddc;
+   text-decoration: none;
+}
+.navbar-default .navbar-nav .open .dropdown-menu .dropdown-menu > li > a {
+   color: #3bbfb2;
+   text-decoration: none;
+   border-radius: 1px;
+}
+.navbar-default .navbar-nav .open .keepingSafe > li > a {
+   color: #f8f5ee;
+}
+.navbar-nav.sm-collapsible a.has-submenu {
+   padding-right: 50px;
+   text-decoration: none;
+   /*color: #42454A;*/
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   /*color: #f2eddc;*/
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+   background: #F2EDDC;
+   background-color: rgb(90, 92, 95);
+   color: #9d9d9d;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #796933;
+    opacity: 0.35;
+}
+
+
+.header-img-sml {
+   width: 100%;
+   height: 97%;
+   margin-top: -1px;
+   margin-bottom: -39px;
+}
+.header-img-lrg {
+   width: 100%;
+   margin-top: -31px;
+    margin-bottom: -92px;
+   max-width: 1170px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#header-btn {
+   width: 30px;
+}
+.emergency {
+   color: #f2766b;
+   border-left: none;
+/*margin-top: -6px; -- Alex */
+   display: inline-block;
+   margin: 0 15px 4px 15px;
+   vertical-align: top;
+}
+.hidepage {
+   border-left: none;
+   display: inline-block;
+/*margin-top: -6px; -- Alex */
+   margin: 0 15px 4px 15px;
+   vertical-align: top;
+}
+.icon-header-siren {
+   /*fill: #f2766b;*/
+   width: 25px;
+   height: 25px;
+   position: relative;
+   top: 6px;
+   margin-right: 6px;
+   padding: 2px;
+}
+.icon-header-eye {
+   /*fill: #d2c8a9;*/
+   width: 25px;
+   height: 25px;
+   position: relative;
+   top: 9px;
+   margin-right: 6px;
+   padding: 2px;
+}
+.hidepage a {
+   color: #d2c8a9;
+   text-decoration: none;
+}
+
+.emergency a {
+   color: #f2766b;
+   text-decoration: none;
+}
+
+.bsh-logo {
+   fill: #d2c8a9;
+   width: 100%;
+   height: inherit;
+}
+.navbar-toggle {
+   margin-bottom: 0px;
+   margin-left: 2.5%;
+   top: 3px;
+   background: transparent;
+}
+.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret {
+   top: inherit;
+}
+.navbar-header {
+   /*background: #F2EDDC;*/
+   -webkit-box-shadow: inset 0 0 6px #BCB8AA;
+   padding: 10px;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+   background-color: transparent;
+}
+.dropdown > li {
+   margin: 0 .4em .5em -1em;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#3BBFB2), to(#3BBFB2));
+}
+.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret {
+   border: none;
+   background: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   /*padding-left: 45px;*/
+   /*background: #42454A;*/
+   background: #f2eddc;
+}
+.affix {
+   top: 0;
+   width: 100%;
+}
+.affix + .container-fluid {
+   padding-top: 70px;
+}
+.dropdown-menu {
+   padding: 2px 5px;
+}
+.navbar-nav:not(.sm-collapsible) ul .caret {
+   margin-right: 0px;
+   margin-top: 11px;
+}
+
+.dropdown-menu>li>a {
+    padding: 3px 5px;
+}
+
+.cse form.gsc-search-box, form.gsc-search-box {
+
+    background: #EDE2CA;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #d2c8a9;
+}
+
+.breadcrumbCustom a {
+      font-size: 0.9em;
+      text-decoration: none;
+      margin-right: 5px;
+          margin-left: 11px;
+}
+
+.breadcrumbCustom {
+  padding: 0px 0;
+  margin-bottom: -20px;
+  margin-top: 12px;
+  list-style: none;
+  background-color: #F2EDDC;
+  border-radius: 4px;
+  list-style-type: none !important;
+  font-size: 0.9em;
+}
+
+.contentwrapper ul.breadcrumbCustom > li:before {
+	content: "";
+	color: transparent;
+}

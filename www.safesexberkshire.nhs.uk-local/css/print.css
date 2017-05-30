@@ -1,0 +1,41 @@
+@media print {
+
+  .hidepage, .emergency{
+    display: none;
+  }
+  .footer-adminBar, .profBar{
+  display: none !important;
+}
+  header {
+    display: block !important;
+    background-image: url("../images/header-image-large2.png");
+    background-repeat: no-repeat ;
+    /*width: 100%;
+    margin: 0 auto;
+    height: 283px;*/
+  }
+  .ui-center{
+    margin-top: 0px;
+  }
+  .dontpassLogo{
+    margin-top: 0px;
+    display: inline !important;
+
+  }
+
+  .dontpassLogoOrig{
+    display: none;
+  }
+
+	#navbar, .breadcrumb, .search-sml {
+	 display: none;
+	}
+	
+	footer .links, .legalStuff {
+	display: none;
+	}
+	
+	.contentPromoPanels, .contentPromoPanel {
+	display: none;
+	}
+}
