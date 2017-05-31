@@ -292,12 +292,30 @@ table.gsc-search-box td{
 
 }
 
+input.gsc-input {
+    /* padding: 1px 6px; */
+    /* border: 1px solid #DDD; */
+    width: 100%;
+}
 
 
 .cse input.gsc-search-button, input.gsc-search-button {
-    font-weight: normal !important;
+    /*font-weight: normal !important;*/
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 16px;
 }
 
+.c5-text, .c5-text:hover, .c5-text:focus, .c5-text:active {
+    color: #ffffff;
+    color: rgba(255,255,255,1);
+    font-family :"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.c1-bg {
+    background-color: rgb(59, 191, 178);
+}
 
 .gsc-selected-option-container {
     padding: 0 70px 0 6px!important;
@@ -1063,7 +1081,7 @@ button {
 
 .search-sml {
    /* padding: 0px 10px;*/
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     top: 160px;
     /*right: 0;*/
@@ -1311,8 +1329,12 @@ img {
 	border-bottom: 2px solid #ede2ca;*/
 }
 .container table, .container table th, .container table td {
-    padding: 0.5em;
+    padding: 0.3em;
+     /*width: 100%;*/
     /*margin: 15px;*/
+}
+.gsc-table-result{
+width: 100%;
 }
 
 /*.container table tr {
@@ -1705,6 +1727,10 @@ a.LocQue:hover, a.LocQue:hover, a.LocQue:focus, a.LocQue:focus {
     margin-left: 0px!important;
 }
 
+.row1 {
+
+}
+
 /*Added by Alex on 06/04/17 @ 17:41*/
 
 /* ---------------------------------------------------------------------------------------
@@ -1765,4 +1791,83 @@ iframe[allowfullscreen] {
 		height: 62.4rem;
 		max-height: 630px;
 	}
+}
+
+
+  --------------------------------------------------
+    5.5 PAGINATION NAVIGATION             
+    -------------------------------------------------- */
+
+	nav#pagination {
+		margin:20px 0 0;
+		}
+	nav#pagination.post {
+		margin-bottom:30px;
+		}
+	nav#pagination .pagination {
+		overflow:hidden; height:100%;
+		margin:0;
+		display:block;
+		font-size:0;
+		}
+	.listing.shop nav#pagination {
+		margin:0;
+		}
+	.listing.shop nav#pagination .pagination {
+		border:0 none;
+		}
+	nav#pagination .pagination li {
+		border:0 none;
+		display:inline-block;
+		font-size:14px;
+		margin:0 2px;
+		}
+	nav#pagination .pagination li.prev,
+	nav#pagination .pagination li.next {
+		float:left;
+		}
+	nav#pagination .pagination li.next {
+		float:right;
+		}
+		
+	nav#pagination .pagination li a {
+		border-width:1px; border-style:solid; border-color:#e3e3e3; border-color:rgba(227,227,227,1);
+		padding:10px 20px; 
+		color: #3bbfb2;
+    	color: rgb(59, 191, 178);
+        margin-top: 10px;
+        height:40px;
+		}
+
+	nav#pagination .pagination li:not(.active) a:hover {
+		color: #ffffff;
+		color: rgba(255,255,255,1);
+		background-color: #3bbfb2;
+		background-color: rgb(59, 191, 178);
+	}
+
+		
+	nav#pagination .pagination li.prev,
+	nav#pagination .pagination li.next {
+		margin:0;
+		}
+
+	nav#pagination .pagination li.active a {
+		/*font-weight:bold;*/
+		color:#ffffff; color:rgba(255,255,255,1);
+		background-color: #9fd24d;background-color: #3bbfb2;
+		}
+
+
+    .pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    font-size: 14px;
 }

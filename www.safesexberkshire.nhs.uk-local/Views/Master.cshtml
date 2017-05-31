@@ -56,6 +56,9 @@
   <!-- SmartMenus jQuery Bootstrap Addon CSS -->
   <link href="/Css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
  
+    <!--icons CSS -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
   <!-- Style for data tables -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/t/bs/dt-1.10.11,r-2.0.2/datatables.min.css"/>
 
@@ -145,16 +148,15 @@
 	<!-- Line below uncommented by Alex at 18/02/2017 - 12:39 -->
 	<script type="text/javascript" src="~/Scripts/surveyMonkey-banner.js"></script>
 		 
-	 
-    @* this section is used to generate the popup for the news *@
-    @RenderSection("popup", required: false)
-    @* this section is used to include the masonry plugin *@
-    @RenderSection("masonry", required: false)
+            @* this section is used to generate the popup for the news *@
+            @RenderSection("popup", required: false)
+            @* this section is used to include the masonry plugin *@
+            @RenderSection("masonry", required: false)
 
 
 	<!-- <script>(function(t,e,n,o){var s,c,i;t.SMCX=t.SMCX||[],e.getElementById(o)||(s=e.getElementsByTagName(n),c=s[s.length-1],i=e.createElement(n),i.type="text/javascript",i.async=!0,i.id=o,i.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/ojR9r_2BEw56GXrfZGZWQ80JKQ_2BcNq7MmyQBaAOmwfHb4n0MA_2F3nvsi8oZiGMh74_2FV.js"].join(""),c.parentNode.insertBefore(i,c))})(window,document,"script","smcx-sdk");</script> -->
-		 
-		 
-		 
+
+
+
 		 </body>
 </html>
